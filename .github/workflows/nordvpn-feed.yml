@@ -3,7 +3,7 @@
 on:
   push:
     branches:
-      - main
+      - master
   schedule:
     - cron: "0 0 * * *" # Runs at 00:00 AM (UTC) everyday (Check https://crontab.tech/)
 
@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: 🍽️ Checkout the repo
-        uses: actions/checkout@main
+        uses: actions/checkout@master
 
       - name: 🐍 Set up Python 3.8
         uses: actions/setup-python@v3
