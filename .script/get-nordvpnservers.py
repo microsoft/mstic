@@ -15,4 +15,4 @@ data = json.loads(my_json)
 df = pd.DataFrame(data)
 
 # Convert to csv
-df.to_csv('nord-servers.csv',  index=False)
+df.to_csv('nordvpn-servers.csv',  index=False)
