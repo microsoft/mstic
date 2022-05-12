@@ -3,7 +3,7 @@ name: Daily workflow to parse all Microsoft Sentinel and Microsoft Security Serv
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 30 * * *" # Runs at 00:00 AM (UTC) everyday
+    - cron: "30 * * * *" # Runs at 00:30 AM (UTC) everyday
 
 jobs:
   download-mitreattackmap:
