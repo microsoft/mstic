@@ -1,9 +1,7 @@
 ﻿name: Daily Nord VPN Servers Feed
 
 on:
-  push:
-    branches:
-      - master
+  workflow_dispatch:
   schedule:
     - cron: "0 0 * * *" # Runs at 00:00 AM (UTC) everyday (Check https://crontab.tech/)
 
