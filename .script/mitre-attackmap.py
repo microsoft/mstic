@@ -786,9 +786,9 @@ def main():
         logging.info(f"Writing csv files to temporary directory")
         curr_path = Path.cwd()
         out_path = (
-            curr_path / "main" / "PublicFeeds" / "MITREATT&CK" / "MicrosoftSentinel.csv"
+            curr_path / "master" / "PublicFeeds" / "MITREATT&CK" / "MicrosoftSentinel.csv"
         )
-        layer_path = curr_path / "main" / "PublicFeeds" / "MITREATT&CK" / "Layers"
+        layer_path = curr_path / "master" / "PublicFeeds" / "MITREATT&CK" / "Layers"
         try:
             out_path.parents[0].mkdir(parents=True, exist_ok=False)
         except FileExistsError:

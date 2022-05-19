@@ -57,18 +57,26 @@ def main():
         logging.info(f"{out_path} Folder was created")
 
     servicetags_public = (
-        curr_path / "main" / "PublicFeeds" / "MSFTIPRanges" / "ServiceTags_Public.json"
+        curr_path
+        / "master"
+        / "PublicFeeds"
+        / "MSFTIPRanges"
+        / "ServiceTags_Public.json"
     )
     msftpublic_ips = (
-        curr_path / "main" / "PublicFeeds" / "MSFTIPRanges" / "MSFT_PublicIPs.csv"
+        curr_path / "master" / "PublicFeeds" / "MSFTIPRanges" / "MSFT_PublicIPs.csv"
     )
     officeworldwide_ips = (
         curr_path
-        / "main"
+        / "master"
         / "PublicFeeds"
         / "MSFTIPRanges"
         / "OfficeWorldWide-IPRanges.json"
     )
+
+    logging.info(f"Writing json file to output directory : {servicetags_public}")
+    logging.info(f"Writing csv file to output directory : {msftpublic_ips}")
+    logging.info(f"Writing json file to output directory : {officeworldwide_ips}")
     parse_and_download_files(servicetags_public, msftpublic_ips, officeworldwide_ips)
 
 
