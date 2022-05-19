@@ -1,18 +1,52 @@
 ﻿import requests
 import json
+import logging
 import pandas as pd
+from pathlib import Path
 
-# Download Nord Server list using API
-r  = requests.get('https://api.nordvpn.com/server')
+"https://api.nordvpn.com/server"
 
-#Decode byte array into string
-my_json = r.content.decode('utf8')
 
-#Convert string to JSON
-data = json.loads(my_json)
+def download_nord_vpn_servers(url, output_file):
+    # Download data from the url
+    r = requests.get(url)
 
-# Load list of JSON records into dataframe
-df = pd.DataFrame(data)
+    # Decode byte array into string
+    my_json = r.content.decode("utf8")
 
-# Convert to csv
-df.to_csv('nordvpn-servers.csv',  index=False)
+    # Convert string to JSON
+    data = json.loads(my_json)
+
+    # Load list of JSON records into dataframe
+    df = pd.DataFrame(data)
+    # Convert to csv
+    df.to_csv(output_file, index=False)
+
+
+def main():
+    logging.basicConfig(
+        stream=sys.stdout,
+        level=logging.DEBUG,
+        format="%(asctime)s:%(levelname)s: %(message)s",
+    )
+    api_url = "https://api.nordvpn.com/server"
+    logging.info("Python main function started")
+    logging.info(f"Downloading Nord VPN server list using API from {api_url}")
+
+    curr_path = Path.cwd()
+    out_path = (
+        curr_path / "main" / "PublicFeeds" / "NordVPNDaily" / "nordvpn-servers.csv"
+    )
+    try:
+        out_path.parents[0].mkdir(parents=True, exist_ok=False)
+    except FileExistsError:
+        logging.info("Folder is already present")
+    else:
+        logging.info(f"{out_path} Folder was created")
+
+    logging.info(f"Writing csv file to output directory : {out_path}")
+    download_nord_vpn_servers(api_url, out_path)
+
+
+if __name__ == "__main__":
+    main()

@@ -1,13 +1,13 @@
-name: Daily workflow to parse all Microsoft Sentinel and Microsoft Security Services Built-in Alerts to csv file
+name: Weekly workflow to download all Feeds related to MSFT Public IP Ranges
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: "30 * * * *" # Runs at 00:30 AM (UTC) everyday
+    - cron: "0 1 * * */7" # Runs at 01:00 AM (UTC) every 7th day-of-week (Check https://crontab.tech/)
 
 jobs:
   download-mitreattackmap:
-    name: Daily workflow to parse all Microsoft Sentinel and Microsoft Security Services Built-in Alerts to csv file
+    name: Weekly workflow to download all Feeds related to MSFT Public IP Ranges
     runs-on: ubuntu-latest
     steps:
       - name: 🍽️ Checkout the repo
@@ -25,18 +25,18 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install requests pandas attackcti pyyaml requests_html
+          pip install requests pandas  requests_html
 
       - name: 🚀 Run automation script
-        run: python master/.script/mitre-attackmap.py
+        run: python master/.script/get-msftpubliip-servicetags.py
 
       - name: Commit files
         run: |
           cd master
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add 'PublicFeeds/MITREATT&CK/MicrosoftSentinel.csv'
-          git commit -m "Adding updated MITRE Attackmap files" -a
+          git add *
+          git commit -m "Adding updated MSFT IP Ranges files" -a
 
       - name: Push changes
         uses: ad-m/github-push-action@master
