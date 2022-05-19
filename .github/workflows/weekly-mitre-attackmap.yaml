@@ -1,4 +1,4 @@
-name: Daily workflow to parse all Microsoft Sentinel and Microsoft Security Services Built-in Alerts to csv file
+name: Weekly workflow to parse all Microsoft Sentinel and Microsoft Security Services Built-in Alerts to csv file
 
 on:
   workflow_dispatch:
@@ -7,7 +7,7 @@ on:
 
 jobs:
   download-mitreattackmap:
-    name: Daily workflow to parse all Microsoft Sentinel and Microsoft Security Services Built-in Alerts to csv file
+    name: Weekly workflow to parse all Microsoft Sentinel and Microsoft Security Services Built-in Alerts to csv file
     runs-on: ubuntu-latest
     steps:
       - name: 🍽️ Checkout the repo
