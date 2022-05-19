@@ -11,7 +11,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: 🍽️ Checkout the repo
-        uses: actions/checkout@master
+        uses: actions/checkout@v3
+        with:
+          path: master
+          fetch-depth: 0
 
       - name: 🐍 Set up Python 3.8
         uses: actions/setup-python@v3
@@ -25,10 +28,11 @@ jobs:
           pip install requests pandas
 
       - name: 🚀 Run automation script
-        run: python  .script/get-nordvpnservers.py
+        run: python  master/.script/get-nordvpnservers.py
 
       - name: Commit files
         run: |
+          cd master
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add *
@@ -36,3 +40,5 @@ jobs:
 
       - name: Push changes
         uses: ad-m/github-push-action@master
+        with:
+          directory: "master"

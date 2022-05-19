@@ -1,5 +1,6 @@
 ﻿import requests
 import json
+import sys
 import logging
 import pandas as pd
 from pathlib import Path
@@ -35,7 +36,7 @@ def main():
 
     curr_path = Path.cwd()
     out_path = (
-        curr_path / "main" / "PublicFeeds" / "NordVPNDaily" / "nordvpn-servers.csv"
+        curr_path / "master" / "PublicFeeds" / "NordVPNDaily" / "nordvpn-servers.csv"
     )
     try:
         out_path.parents[0].mkdir(parents=True, exist_ok=False)
