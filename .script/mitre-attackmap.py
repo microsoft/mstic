@@ -604,6 +604,86 @@ def get_mcas_alerts():
     return mcas_df
 
 
+def generate_navigator_layerfiles(inputfile, output):
+    # Read csv file as input
+    with open(inputfile, "r", encoding="utf8") as f:
+        reader = csv.DictReader(f)
+        a = list(reader)
+
+    # Creating set of Platforms and list of platforms
+    platforms = []
+
+    for t in a:
+        if t["Platform"] not in platforms:
+            platforms.append(t["Platform"])
+
+    # remove empty platforms
+    platforms.remove("")
+
+    # Empty Platform Data structure for Layer json file
+    platforms_list = []
+
+    for item in platforms:
+        platform_dict = dict()
+        platform_dict[item] = []
+        platforms_list.append(platform_dict)
+
+    # Creating list of techniques per platfdorm and create Techniques data strcuture to iterate further
+    for aplatform in platforms_list:
+        for ap, techniques_list in aplatform.items():
+            for t in a:
+                if ap == t["Platform"]:
+                    technique_dict = dict()
+                    technique_dict["techniqueId"] = t["TechniqueId"]
+                    technique_dict["DetectionName"] = t["DetectionName"]
+                    technique_dict["DataTypes"] = t["DataTypes"]
+                    if technique_dict not in techniques_list:
+                        techniques_list.append(technique_dict)
+
+    # Code to Generate ATT&CK navigator Layer json file using Data Structures - Platforms and Techniques used
+    for platform in platforms_list:
+        for k, v in platform.items():
+            technique_mappings = dict()
+            for technique in v:
+                metadata = dict()
+                metadata["name"] = technique["DetectionName"]
+                metadata["value"] = technique["DataTypes"]
+                if technique["techniqueId"] not in technique_mappings:
+                    technique_mappings[technique["techniqueId"]] = []
+                if metadata not in technique_mappings[technique["techniqueId"]]:
+                    technique_mappings[technique["techniqueId"]].append(metadata)
+
+            VERSION = {"attack": "11", "navigator": "4.6.3", "layer": "4.3"}
+            NAME = "{} Layer Json File for Microsoft Sentinel".format(k)
+            DESCRIPTION = "{} ATT&CK Matrix Coverage for Microsoft Sentinel".format(k)
+            DOMAIN = "mitre-enterprise"
+            platform_layer = {
+                "description": DESCRIPTION,
+                "name": NAME,
+                "domain": DOMAIN,
+                "versions": VERSION,
+                "filters": {"stages": ["act"], "platforms": [k]},
+                "techniques": [
+                    {"score": 1, "techniqueID": k, "metadata": v}
+                    for k, v in technique_mappings.items()
+                ],
+                "gradient": {
+                    "colors": ["#ffffff", "##8ec843"],
+                    "minValue": 0,
+                    "maxValue": 1,
+                },
+                "legendItems": [{"label": "Techniques researched", "color": "#66fff3"}],
+            }
+
+            # output layer files to directory
+            if not os.path.exists(output):
+                logging.info("Creating directory {}".format(output))
+                os.makedirs(output)
+            with open((f"{output}/{k}.json"), "w") as f:
+                logging.info(f"Writing the Layer file for {k} in {output}")
+                f.write(json.dumps(platform_layer))
+
+
 def main():
 
     logging.basicConfig(
@@ -706,12 +786,9 @@ def main():
         logging.info(f"Writing csv files to temporary directory")
         curr_path = Path.cwd()
         out_path = (
-            curr_path
-            / "master"
-            / "PublicFeeds"
-            / "MITREATT&CK"
-            / "MicrosoftSentinel.csv"
+            curr_path / "main" / "PublicFeeds" / "MITREATT&CK" / "MicrosoftSentinel.csv"
         )
+        layer_path = curr_path / "main" / "PublicFeeds" / "MITREATT&CK" / "Layers"
         try:
             out_path.parents[0].mkdir(parents=True, exist_ok=False)
         except FileExistsError:
@@ -808,6 +885,9 @@ def main():
         # Export the whole dataset with headers
         final.to_csv(out_path, index=False)
         logging.info(f"Output csv file written to : {out_path}")
+        logging.info(f"Generating ATT&CK Navigation Layer Files : ")
+        generate_navigator_layerfiles(inputfile=out_path, output=layer_path)
+
     except Exception as e:
         logging.error(f"Error Details: {e}")
 
