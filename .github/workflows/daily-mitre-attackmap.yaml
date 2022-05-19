@@ -3,7 +3,7 @@ name: Daily workflow to parse all Microsoft Sentinel and Microsoft Security Serv
 on:
   workflow_dispatch:
   schedule:
-    - cron: "30 * * * *" # Runs at 00:30 AM (UTC) everyday
+    - cron: "0 1 * * */7" # Runs at 01:00 AM (UTC) every 7th day-of-week (Check https://crontab.tech/)
 
 jobs:
   download-mitreattackmap:
@@ -35,7 +35,7 @@ jobs:
           cd master
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add 'PublicFeeds/MITREATT&CK/MicrosoftSentinel.csv'
+          git add *
           git commit -m "Adding updated MITRE Attackmap files" -a
 
       - name: Push changes
