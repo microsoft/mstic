@@ -48,7 +48,7 @@ def main():
     )
 
     curr_path = Path.cwd()
-    out_path = curr_path / "main" / "PublicFeeds" / "MSFTIPRanges"
+    out_path = curr_path / "master" / "PublicFeeds" / "MSFTIPRanges"
     try:
         out_path.mkdir(parents=True, exist_ok=False)
     except FileExistsError:
