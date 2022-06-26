@@ -1,5 +1,5 @@
 {
-    "changeNumber": 206,
+    "changeNumber": 207,
     "cloud": "Public",
     "values": [
         {
@@ -83530,7 +83530,7 @@
             "name": "AzureCloud.centralus",
             "id": "AzureCloud.centralus",
             "properties": {
-                "changeNumber": 64,
+                "changeNumber": 65,
                 "region": "centralus",
                 "regionId": 31,
                 "platform": "Azure",
@@ -83561,6 +83561,7 @@
                     "13.105.101.48/28",
                     "13.105.101.64/26",
                     "20.9.0.0/17",
+                    "20.12.128.0/17",
                     "20.29.0.0/17",
                     "20.37.128.0/18",
                     "20.38.96.0/23",
@@ -84434,7 +84435,7 @@
             "name": "AzureCloud.eastus2",
             "id": "AzureCloud.eastus2",
             "properties": {
-                "changeNumber": 76,
+                "changeNumber": 77,
                 "region": "eastus2",
                 "regionId": 33,
                 "platform": "Azure",
@@ -84458,6 +84459,7 @@
                     "20.7.0.0/16",
                     "20.10.0.0/16",
                     "20.12.0.0/17",
+                    "20.14.128.0/17",
                     "20.22.0.0/16",
                     "20.36.128.0/17",
                     "20.38.100.0/23",
@@ -86178,7 +86180,7 @@
             "name": "AzureCloud.jioindiawest",
             "id": "AzureCloud.jioindiawest",
             "properties": {
-                "changeNumber": 5,
+                "changeNumber": 6,
                 "region": "jioindiawest",
                 "regionId": 65,
                 "platform": "Azure",
@@ -86201,6 +86203,7 @@
                     "20.193.160.0/19",
                     "20.193.192.0/20",
                     "20.207.224.0/19",
+                    "20.244.128.0/17",
                     "40.64.0.0/18",
                     "40.119.124.0/22",
                     "40.126.63.64/26",
@@ -89593,7 +89596,7 @@
             "name": "AzureCloud.westus3",
             "id": "AzureCloud.westus3",
             "properties": {
-                "changeNumber": 12,
+                "changeNumber": 13,
                 "region": "westus3",
                 "regionId": 79,
                 "platform": "Azure",
@@ -89608,6 +89611,7 @@
                     "13.105.102.224/27",
                     "13.105.103.0/28",
                     "13.105.103.32/27",
+                    "20.14.0.0/17",
                     "20.25.128.0/18",
                     "20.38.0.0/20",
                     "20.38.32.0/20",
@@ -89887,7 +89891,7 @@
             "name": "AzureCloud",
             "id": "AzureCloud",
             "properties": {
-                "changeNumber": 125,
+                "changeNumber": 126,
                 "region": "",
                 "regionId": 0,
                 "platform": "Azure",
@@ -90264,8 +90268,11 @@
                     "20.10.0.0/16",
                     "20.11.0.0/17",
                     "20.12.0.0/17",
+                    "20.12.128.0/17",
                     "20.13.0.0/17",
                     "20.13.128.0/17",
+                    "20.14.0.0/17",
+                    "20.14.128.0/17",
                     "20.20.32.0/26",
                     "20.21.0.0/16",
                     "20.22.0.0/16",
@@ -91713,6 +91720,7 @@
                     "20.242.128.0/17",
                     "20.243.0.0/16",
                     "20.244.0.0/17",
+                    "20.244.128.0/17",
                     "20.245.0.0/16",
                     "20.246.0.0/17",
                     "20.246.128.0/17",
