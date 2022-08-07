@@ -1,5 +1,5 @@
 {
-    "changeNumber": 212,
+    "changeNumber": 213,
     "cloud": "Public",
     "values": [
         {
@@ -1220,7 +1220,7 @@
             "name": "AppConfiguration",
             "id": "AppConfiguration",
             "properties": {
-                "changeNumber": 26,
+                "changeNumber": 27,
                 "region": "",
                 "regionId": 0,
                 "platform": "Azure",
@@ -1278,6 +1278,7 @@
                     "20.21.44.64/27",
                     "20.21.67.128/27",
                     "20.21.75.128/27",
+                    "20.21.83.0/27",
                     "20.36.108.120/29",
                     "20.36.108.136/29",
                     "20.36.108.144/28",
@@ -10214,19 +10215,27 @@
             "name": "AzureLoadTestingInstanceManagement",
             "id": "AzureLoadTestingInstanceManagement",
             "properties": {
-                "changeNumber": 1,
+                "changeNumber": 2,
                 "region": "",
                 "regionId": 0,
                 "platform": "Azure",
                 "systemService": "AzureLoadTestingInstanceManagement",
                 "addressPrefixes": [
+                    "20.24.1.136/30",
+                    "20.26.16.112/30",
                     "20.70.223.12/32",
                     "20.83.222.204/32",
                     "20.88.159.138/32",
                     "20.98.194.67/32",
+                    "20.98.199.120/30",
                     "20.107.239.218/32",
                     "20.117.192.200/32",
-                    "20.195.85.190/32"
+                    "20.125.7.20/30",
+                    "20.195.85.190/32",
+                    "20.213.195.80/30",
+                    "20.223.65.156/30",
+                    "20.232.91.28/30",
+                    "20.236.145.196/30"
                 ],
                 "networkFeatures": [
                     "NSG",
@@ -10534,7 +10543,7 @@
             "name": "AzureMonitor",
             "id": "AzureMonitor",
             "properties": {
-                "changeNumber": 70,
+                "changeNumber": 71,
                 "region": "",
                 "regionId": 0,
                 "platform": "Azure",
@@ -10918,6 +10927,7 @@
                     "20.195.82.160/27",
                     "20.205.77.184/29",
                     "20.205.83.232/29",
+                    "20.205.86.0/28",
                     "20.205.192.72/29",
                     "20.206.0.196/31",
                     "20.208.19.200/29",
@@ -11106,6 +11116,7 @@
                     "40.119.11.180/30",
                     "40.120.8.192/27",
                     "40.120.64.200/29",
+                    "40.120.65.0/28",
                     "40.120.75.32/28",
                     "40.120.77.160/29",
                     "40.120.87.204/30",
@@ -11193,7 +11204,7 @@
                     "51.107.128.56/29",
                     "51.107.128.96/27",
                     "51.107.129.112/28",
-                    "51.107.129.128/28",
+                    "51.107.129.128/27",
                     "51.107.147.16/28",
                     "51.107.147.116/30",
                     "51.107.148.0/28",
@@ -20300,7 +20311,7 @@
             "name": "M365ManagementActivityApi",
             "id": "M365ManagementActivityApi",
             "properties": {
-                "changeNumber": 1,
+                "changeNumber": 2,
                 "region": "",
                 "regionId": 0,
                 "platform": "Azure",
@@ -20311,6 +20322,7 @@
                     "13.71.175.136/31",
                     "13.78.111.196/31",
                     "13.86.223.88/29",
+                    "20.21.77.188/31",
                     "20.36.117.194/31",
                     "20.37.76.206/31",
                     "20.43.121.254/31",
@@ -20354,7 +20366,7 @@
             "name": "M365ManagementActivityApiWebhook",
             "id": "M365ManagementActivityApiWebhook",
             "properties": {
-                "changeNumber": 1,
+                "changeNumber": 2,
                 "region": "",
                 "regionId": 0,
                 "platform": "Azure",
@@ -20364,6 +20376,7 @@
                     "13.69.109.200/29",
                     "13.69.233.56/29",
                     "13.71.175.200/29",
+                    "20.21.77.186/31",
                     "20.38.152.16/29",
                     "20.41.208.8/29",
                     "20.42.72.136/29",
@@ -25733,6 +25746,22 @@
             }
         },
         {
+            "name": "ActionGroup.MalaysiaSouth",
+            "id": "ActionGroup.MalaysiaSouth",
+            "properties": {
+                "changeNumber": 1,
+                "region": "malaysiasouth",
+                "regionId": 98,
+                "platform": "Azure",
+                "systemService": "ActionGroup",
+                "addressPrefixes": [
+                    "20.17.66.88/30",
+                    "2603:1040:1503:400::180/125"
+                ],
+                "networkFeatures": null
+            }
+        },
+        {
             "name": "ActionGroup.NorthCentralUS",
             "id": "ActionGroup.NorthCentralUS",
             "properties": {
@@ -26935,6 +26964,27 @@
                     "40.80.232.185/32",
                     "52.231.146.84/31",
                     "52.231.147.176/28"
+                ],
+                "networkFeatures": [
+                    "API",
+                    "NSG",
+                    "UDR",
+                    "FW"
+                ]
+            }
+        },
+        {
+            "name": "ApiManagement.MalaysiaSouth",
+            "id": "ApiManagement.MalaysiaSouth",
+            "properties": {
+                "changeNumber": 1,
+                "region": "malaysiasouth",
+                "regionId": 98,
+                "platform": "Azure",
+                "systemService": "AzureApiManagement",
+                "addressPrefixes": [
+                    "20.17.51.224/28",
+                    "2603:1040:1503::600/124"
                 ],
                 "networkFeatures": [
                     "API",
@@ -28677,6 +28727,27 @@
                     "52.231.200.101/32",
                     "52.231.200.179/32",
                     "2603:1040:e05:1::200/120"
+                ],
+                "networkFeatures": [
+                    "API",
+                    "NSG",
+                    "UDR",
+                    "FW"
+                ]
+            }
+        },
+        {
+            "name": "AppService.MalaysiaSouth",
+            "id": "AppService.MalaysiaSouth",
+            "properties": {
+                "changeNumber": 1,
+                "region": "malaysiasouth",
+                "regionId": 98,
+                "platform": "Azure",
+                "systemService": "AzureAppService",
+                "addressPrefixes": [
+                    "20.17.62.0/24",
+                    "2603:1040:1503:2::100/120"
                 ],
                 "networkFeatures": [
                     "API",
@@ -30621,6 +30692,24 @@
                     "52.231.146.128/26",
                     "52.231.200.177/32",
                     "2603:1040:e05:1::e0/123"
+                ],
+                "networkFeatures": [
+                    "NSG"
+                ]
+            }
+        },
+        {
+            "name": "AppServiceManagement.MalaysiaSouth",
+            "id": "AppServiceManagement.MalaysiaSouth",
+            "properties": {
+                "changeNumber": 1,
+                "region": "malaysiasouth",
+                "regionId": 98,
+                "platform": "Azure",
+                "systemService": "AzureAppServiceManagement",
+                "addressPrefixes": [
+                    "20.17.66.192/26",
+                    "2603:1040:1503:400::80/122"
                 ],
                 "networkFeatures": [
                     "NSG"
@@ -32688,6 +32777,22 @@
             }
         },
         {
+            "name": "AzureAttestation.MalaysiaSouth",
+            "id": "AzureAttestation.MalaysiaSouth",
+            "properties": {
+                "changeNumber": 1,
+                "region": "malaysiasouth",
+                "regionId": 98,
+                "platform": "Azure",
+                "systemService": "AzureAttestation",
+                "addressPrefixes": [
+                    "20.17.51.36/30",
+                    "2603:1040:1503::620/124"
+                ],
+                "networkFeatures": null
+            }
+        },
+        {
             "name": "AzureAttestation.NorthCentralUS",
             "id": "AzureAttestation.NorthCentralUS",
             "properties": {
@@ -33754,6 +33859,24 @@
                     "52.147.113.0/26",
                     "52.231.147.32/27",
                     "52.231.147.64/26"
+                ],
+                "networkFeatures": null
+            }
+        },
+        {
+            "name": "AzureBackup.MalaysiaSouth",
+            "id": "AzureBackup.MalaysiaSouth",
+            "properties": {
+                "changeNumber": 1,
+                "region": "malaysiasouth",
+                "regionId": 98,
+                "platform": "Azure",
+                "systemService": "AzureBackup",
+                "addressPrefixes": [
+                    "20.17.52.0/26",
+                    "20.17.67.64/26",
+                    "2603:1040:1503::680/121",
+                    "2603:1040:1503:400::100/121"
                 ],
                 "networkFeatures": null
             }
@@ -34865,6 +34988,22 @@
             }
         },
         {
+            "name": "AzureBotService.MalaysiaSouth",
+            "id": "AzureBotService.MalaysiaSouth",
+            "properties": {
+                "changeNumber": 1,
+                "region": "malaysiasouth",
+                "regionId": 98,
+                "platform": "Azure",
+                "systemService": "AzureBotService",
+                "addressPrefixes": [
+                    "20.17.48.16/30",
+                    "2603:1040:1503::20/123"
+                ],
+                "networkFeatures": null
+            }
+        },
+        {
             "name": "AzureBotService.NorthCentralUS",
             "id": "AzureBotService.NorthCentralUS",
             "properties": {
@@ -35847,6 +35986,22 @@
                 "addressPrefixes": [
                     "40.80.169.64/26",
                     "2603:1040:e05:1::/121"
+                ],
+                "networkFeatures": null
+            }
+        },
+        {
+            "name": "AzureCognitiveSearch.MalaysiaSouth",
+            "id": "AzureCognitiveSearch.MalaysiaSouth",
+            "properties": {
+                "changeNumber": 1,
+                "region": "malaysiasouth",
+                "regionId": 98,
+                "platform": "Azure",
+                "systemService": "AzureCognitiveSearch",
+                "addressPrefixes": [
+                    "20.17.48.192/26",
+                    "2603:1040:1503::100/121"
                 ],
                 "networkFeatures": null
             }
@@ -37127,6 +37282,27 @@
                     "52.231.148.224/27",
                     "52.231.163.10/32",
                     "52.231.201.173/32"
+                ],
+                "networkFeatures": [
+                    "API",
+                    "NSG",
+                    "UDR",
+                    "FW"
+                ]
+            }
+        },
+        {
+            "name": "AzureConnectors.MalaysiaSouth",
+            "id": "AzureConnectors.MalaysiaSouth",
+            "properties": {
+                "changeNumber": 1,
+                "region": "malaysiasouth",
+                "regionId": 98,
+                "platform": "Azure",
+                "systemService": "AzureConnectors",
+                "addressPrefixes": [
+                    "20.17.67.0/26",
+                    "2603:1040:1503:400::c0/122"
                 ],
                 "networkFeatures": [
                     "API",
@@ -38774,6 +38950,31 @@
                     "52.231.146.192/29",
                     "52.231.151.128/26",
                     "2603:1040:e05:402::100/122"
+                ],
+                "networkFeatures": [
+                    "API",
+                    "NSG",
+                    "UDR",
+                    "FW"
+                ]
+            }
+        },
+        {
+            "name": "AzureContainerRegistry.MalaysiaSouth",
+            "id": "AzureContainerRegistry.MalaysiaSouth",
+            "properties": {
+                "changeNumber": 1,
+                "region": "malaysiasouth",
+                "regionId": 98,
+                "platform": "Azure",
+                "systemService": "AzureContainerRegistry",
+                "addressPrefixes": [
+                    "20.17.51.128/26",
+                    "20.17.66.128/26",
+                    "20.17.68.128/25",
+                    "2603:1040:1503::540/125",
+                    "2603:1040:1503:400::48/125",
+                    "2603:1040:1503:400::280/121"
                 ],
                 "networkFeatures": [
                     "API",
@@ -40513,6 +40714,29 @@
             }
         },
         {
+            "name": "AzureCosmosDB.MalaysiaSouth",
+            "id": "AzureCosmosDB.MalaysiaSouth",
+            "properties": {
+                "changeNumber": 1,
+                "region": "malaysiasouth",
+                "regionId": 98,
+                "platform": "Azure",
+                "systemService": "AzureCosmosDB",
+                "addressPrefixes": [
+                    "20.17.51.0/27",
+                    "20.17.66.0/26",
+                    "2603:1040:1503::1e0/123",
+                    "2603:1040:1503:400::/122"
+                ],
+                "networkFeatures": [
+                    "API",
+                    "NSG",
+                    "UDR",
+                    "FW"
+                ]
+            }
+        },
+        {
             "name": "AzureCosmosDB.NorthCentralUS",
             "id": "AzureCosmosDB.NorthCentralUS",
             "properties": {
@@ -41851,6 +42075,22 @@
                     "40.80.234.9/32",
                     "52.231.148.16/28",
                     "2603:1040:e05::180/121"
+                ],
+                "networkFeatures": null
+            }
+        },
+        {
+            "name": "AzureDataExplorerManagement.MalaysiaSouth",
+            "id": "AzureDataExplorerManagement.MalaysiaSouth",
+            "properties": {
+                "changeNumber": 1,
+                "region": "malaysiasouth",
+                "regionId": 98,
+                "platform": "Azure",
+                "systemService": "AzureDataExplorerManagement",
+                "addressPrefixes": [
+                    "20.17.54.128/28",
+                    "2603:1040:1503:1::1e0/123"
                 ],
                 "networkFeatures": null
             }
@@ -43538,6 +43778,22 @@
             }
         },
         {
+            "name": "AzureDigitalTwins.MalaysiaSouth",
+            "id": "AzureDigitalTwins.MalaysiaSouth",
+            "properties": {
+                "changeNumber": 1,
+                "region": "malaysiasouth",
+                "regionId": 98,
+                "platform": "Azure",
+                "systemService": "AzureDigitalTwins",
+                "addressPrefixes": [
+                    "20.17.51.192/27",
+                    "2603:1040:1503::580/121"
+                ],
+                "networkFeatures": null
+            }
+        },
+        {
             "name": "AzureDigitalTwins.NorthCentralUS",
             "id": "AzureDigitalTwins.NorthCentralUS",
             "properties": {
@@ -44562,6 +44818,22 @@
                 "addressPrefixes": [
                     "40.80.170.0/25",
                     "40.80.236.192/27"
+                ],
+                "networkFeatures": null
+            }
+        },
+        {
+            "name": "AzureEventGrid.MalaysiaSouth",
+            "id": "AzureEventGrid.MalaysiaSouth",
+            "properties": {
+                "changeNumber": 1,
+                "region": "malaysiasouth",
+                "regionId": 98,
+                "platform": "Azure",
+                "systemService": "AzureEventGrid",
+                "addressPrefixes": [
+                    "20.17.49.128/25",
+                    "2603:1040:1503::280/121"
                 ],
                 "networkFeatures": null
             }
@@ -45995,6 +46267,28 @@
                     "52.231.200.153/32",
                     "52.231.207.155/32",
                     "2603:1040:e05::500/120"
+                ],
+                "networkFeatures": [
+                    "API",
+                    "NSG",
+                    "UDR",
+                    "FW"
+                ]
+            }
+        },
+        {
+            "name": "EventHub.MalaysiaSouth",
+            "id": "EventHub.MalaysiaSouth",
+            "properties": {
+                "changeNumber": 1,
+                "region": "malaysiasouth",
+                "regionId": 98,
+                "platform": "Azure",
+                "systemService": "AzureEventHub",
+                "addressPrefixes": [
+                    "20.17.53.0/24",
+                    "20.17.67.128/26",
+                    "2603:1040:1503:1::/120"
                 ],
                 "networkFeatures": [
                     "API",
@@ -47529,6 +47823,22 @@
             }
         },
         {
+            "name": "AzureIoTHub.MalaysiaSouth",
+            "id": "AzureIoTHub.MalaysiaSouth",
+            "properties": {
+                "changeNumber": 1,
+                "region": "malaysiasouth",
+                "regionId": 98,
+                "platform": "Azure",
+                "systemService": "AzureIoTHub",
+                "addressPrefixes": [
+                    "20.17.68.96/27",
+                    "2603:1040:1503:400::220/123"
+                ],
+                "networkFeatures": null
+            }
+        },
+        {
             "name": "AzureIoTHub.NorthCentralUS",
             "id": "AzureIoTHub.NorthCentralUS",
             "properties": {
@@ -48997,6 +49307,28 @@
             }
         },
         {
+            "name": "AzureKeyVault.MalaysiaSouth",
+            "id": "AzureKeyVault.MalaysiaSouth",
+            "properties": {
+                "changeNumber": 1,
+                "region": "malaysiasouth",
+                "regionId": 98,
+                "platform": "Azure",
+                "systemService": "AzureKeyVault",
+                "addressPrefixes": [
+                    "20.17.58.48/29",
+                    "20.17.66.124/30",
+                    "2603:1040:1503:1::1c8/125"
+                ],
+                "networkFeatures": [
+                    "API",
+                    "NSG",
+                    "UDR",
+                    "FW"
+                ]
+            }
+        },
+        {
             "name": "AzureKeyVault.NorthCentralUS",
             "id": "AzureKeyVault.NorthCentralUS",
             "properties": {
@@ -50360,6 +50692,22 @@
             }
         },
         {
+            "name": "AzureMachineLearning.MalaysiaSouth",
+            "id": "AzureMachineLearning.MalaysiaSouth",
+            "properties": {
+                "changeNumber": 1,
+                "region": "malaysiasouth",
+                "regionId": 98,
+                "platform": "Azure",
+                "systemService": "AzureMachineLearning",
+                "addressPrefixes": [
+                    "20.17.49.0/27",
+                    "2603:1040:1503::200/122"
+                ],
+                "networkFeatures": null
+            }
+        },
+        {
             "name": "AzureMachineLearning.NorthCentralUS",
             "id": "AzureMachineLearning.NorthCentralUS",
             "properties": {
@@ -51372,7 +51720,7 @@
             "name": "AzureMonitor.EastAsia",
             "id": "AzureMonitor.EastAsia",
             "properties": {
-                "changeNumber": 14,
+                "changeNumber": 15,
                 "region": "eastasia",
                 "regionId": 1,
                 "platform": "Azure",
@@ -51400,6 +51748,7 @@
                     "20.195.74.188/31",
                     "20.205.77.184/29",
                     "20.205.83.232/29",
+                    "20.205.86.0/28",
                     "23.97.65.103/32",
                     "23.100.90.7/32",
                     "23.100.94.221/32",
@@ -52083,6 +52432,31 @@
             }
         },
         {
+            "name": "AzureMonitor.MalaysiaSouth",
+            "id": "AzureMonitor.MalaysiaSouth",
+            "properties": {
+                "changeNumber": 1,
+                "region": "malaysiasouth",
+                "regionId": 98,
+                "platform": "Azure",
+                "systemService": "AzureMonitor",
+                "addressPrefixes": [
+                    "20.17.59.36/30",
+                    "20.17.59.40/29",
+                    "20.17.59.48/30",
+                    "20.17.59.64/27",
+                    "20.17.71.128/29",
+                    "2603:1040:1503:2::a0/123",
+                    "2603:1040:1503:2::c0/122",
+                    "2603:1040:1503:2::200/122",
+                    "2603:1040:1503:2::280/121"
+                ],
+                "networkFeatures": [
+                    "NSG"
+                ]
+            }
+        },
+        {
             "name": "AzureMonitor.NorthCentralUS",
             "id": "AzureMonitor.NorthCentralUS",
             "properties": {
@@ -52665,7 +53039,7 @@
             "name": "AzureMonitor.SwitzerlandNorth",
             "id": "AzureMonitor.SwitzerlandNorth",
             "properties": {
-                "changeNumber": 11,
+                "changeNumber": 12,
                 "region": "switzerlandn",
                 "regionId": 66,
                 "platform": "Azure",
@@ -52685,7 +53059,7 @@
                     "51.107.128.56/29",
                     "51.107.128.96/27",
                     "51.107.129.112/28",
-                    "51.107.129.128/28",
+                    "51.107.129.128/27",
                     "51.107.242.0/27",
                     "51.107.243.172/31",
                     "2603:1020:a04::60/123",
@@ -52810,7 +53184,7 @@
             "name": "AzureMonitor.UAENorth",
             "id": "AzureMonitor.UAENorth",
             "properties": {
-                "changeNumber": 10,
+                "changeNumber": 11,
                 "region": "uaenorth",
                 "regionId": 60,
                 "platform": "Azure",
@@ -52823,6 +53197,7 @@
                     "20.74.195.64/29",
                     "20.74.195.72/31",
                     "40.120.64.200/29",
+                    "40.120.65.0/28",
                     "40.120.75.32/28",
                     "40.120.77.160/29",
                     "40.120.87.204/30",
@@ -54595,6 +54970,22 @@
             }
         },
         {
+            "name": "AzurePortal.MalaysiaSouth",
+            "id": "AzurePortal.MalaysiaSouth",
+            "properties": {
+                "changeNumber": 1,
+                "region": "malaysiasouth",
+                "regionId": 98,
+                "platform": "Azure",
+                "systemService": "AzurePortal",
+                "addressPrefixes": [
+                    "20.17.58.128/27",
+                    "2603:1040:1503:1::580/121"
+                ],
+                "networkFeatures": null
+            }
+        },
+        {
             "name": "AzurePortal.NorthCentralUS",
             "id": "AzurePortal.NorthCentralUS",
             "properties": {
@@ -55713,6 +56104,24 @@
                     "52.147.96.0/24",
                     "52.231.148.64/28",
                     "52.231.150.0/24"
+                ],
+                "networkFeatures": null
+            }
+        },
+        {
+            "name": "AzureResourceManager.MalaysiaSouth",
+            "id": "AzureResourceManager.MalaysiaSouth",
+            "properties": {
+                "changeNumber": 1,
+                "region": "malaysiasouth",
+                "regionId": 98,
+                "platform": "Azure",
+                "systemService": "AzureResourceManager",
+                "addressPrefixes": [
+                    "20.17.60.0/23",
+                    "20.17.68.0/26",
+                    "2603:1040:1503:1::600/120",
+                    "2603:1040:1503:400::1c0/122"
                 ],
                 "networkFeatures": null
             }
@@ -57350,6 +57759,32 @@
                     "52.231.151.96/27",
                     "52.231.200.86/32",
                     "2603:1040:e05::/123"
+                ],
+                "networkFeatures": [
+                    "API",
+                    "NSG",
+                    "UDR",
+                    "FW"
+                ]
+            }
+        },
+        {
+            "name": "Sql.MalaysiaSouth",
+            "id": "Sql.MalaysiaSouth",
+            "properties": {
+                "changeNumber": 1,
+                "region": "malaysiasouth",
+                "regionId": 98,
+                "platform": "Azure",
+                "systemService": "AzureSQL",
+                "addressPrefixes": [
+                    "20.17.59.128/27",
+                    "20.17.59.192/26",
+                    "20.17.64.64/27",
+                    "20.17.65.64/27",
+                    "20.17.67.248/29",
+                    "2603:1040:1503:2::300/123",
+                    "2603:1040:1503:2::380/121"
                 ],
                 "networkFeatures": [
                     "API",
@@ -60032,6 +60467,27 @@
                     "52.147.116.0/25",
                     "52.231.146.64/28",
                     "2603:1040:e05::400/120"
+                ],
+                "networkFeatures": [
+                    "API",
+                    "NSG"
+                ]
+            }
+        },
+        {
+            "name": "ServiceBus.MalaysiaSouth",
+            "id": "ServiceBus.MalaysiaSouth",
+            "properties": {
+                "changeNumber": 1,
+                "region": "malaysiasouth",
+                "regionId": 98,
+                "platform": "Azure",
+                "systemService": "AzureServiceBus",
+                "addressPrefixes": [
+                    "20.17.54.0/25",
+                    "20.17.66.80/29",
+                    "20.17.66.96/28",
+                    "2603:1040:1503::780/121"
                 ],
                 "networkFeatures": [
                     "API",
@@ -62857,6 +63313,26 @@
             }
         },
         {
+            "name": "Storage.MalaysiaSouth",
+            "id": "Storage.MalaysiaSouth",
+            "properties": {
+                "changeNumber": 1,
+                "region": "malaysiasouth",
+                "regionId": 98,
+                "platform": "Azure",
+                "systemService": "AzureStorage",
+                "addressPrefixes": [
+                    "20.209.66.0/23"
+                ],
+                "networkFeatures": [
+                    "API",
+                    "NSG",
+                    "UDR",
+                    "FW"
+                ]
+            }
+        },
+        {
             "name": "Storage.NorthCentralUS",
             "id": "Storage.NorthCentralUS",
             "properties": {
@@ -65053,6 +65529,25 @@
             }
         },
         {
+            "name": "BatchNodeManagement.MalaysiaSouth",
+            "id": "BatchNodeManagement.MalaysiaSouth",
+            "properties": {
+                "changeNumber": 1,
+                "region": "malaysiasouth",
+                "regionId": 98,
+                "platform": "Azure",
+                "systemService": "BatchNodeManagement",
+                "addressPrefixes": [
+                    "20.17.49.32/27",
+                    "2603:1040:1503::240/122"
+                ],
+                "networkFeatures": [
+                    "API",
+                    "NSG"
+                ]
+            }
+        },
+        {
             "name": "BatchNodeManagement.NorthCentralUS",
             "id": "BatchNodeManagement.NorthCentralUS",
             "properties": {
@@ -66522,6 +67017,27 @@
                     "40.80.172.112/29",
                     "52.231.148.160/28",
                     "52.231.151.32/28"
+                ],
+                "networkFeatures": [
+                    "API",
+                    "NSG"
+                ]
+            }
+        },
+        {
+            "name": "DataFactory.MalaysiaSouth",
+            "id": "DataFactory.MalaysiaSouth",
+            "properties": {
+                "changeNumber": 1,
+                "region": "malaysiasouth",
+                "regionId": 98,
+                "platform": "Azure",
+                "systemService": "DataFactory",
+                "addressPrefixes": [
+                    "20.17.56.0/23",
+                    "20.17.71.64/28",
+                    "2603:1040:1503:1::400/121",
+                    "2603:1040:1503:400::3c0/124"
                 ],
                 "networkFeatures": [
                     "API",
@@ -68190,6 +68706,24 @@
             }
         },
         {
+            "name": "GatewayManager.MalaysiaSouth",
+            "id": "GatewayManager.MalaysiaSouth",
+            "properties": {
+                "changeNumber": 1,
+                "region": "malaysiasouth",
+                "regionId": 98,
+                "platform": "Azure",
+                "systemService": "GatewayManager",
+                "addressPrefixes": [
+                    "20.17.48.64/26",
+                    "2603:1040:1503::40/122"
+                ],
+                "networkFeatures": [
+                    "NSG"
+                ]
+            }
+        },
+        {
             "name": "GatewayManager.NorthCentralUS",
             "id": "GatewayManager.NorthCentralUS",
             "properties": {
@@ -69460,6 +69994,27 @@
                     "52.231.147.24/29",
                     "52.231.203.16/32",
                     "52.231.205.214/32"
+                ],
+                "networkFeatures": [
+                    "API",
+                    "NSG",
+                    "UDR",
+                    "FW"
+                ]
+            }
+        },
+        {
+            "name": "HDInsight.MalaysiaSouth",
+            "id": "HDInsight.MalaysiaSouth",
+            "properties": {
+                "changeNumber": 1,
+                "region": "malaysiasouth",
+                "regionId": 98,
+                "platform": "Azure",
+                "systemService": "HDInsight",
+                "addressPrefixes": [
+                    "20.17.54.184/29",
+                    "2603:1040:1503:1::350/124"
                 ],
                 "networkFeatures": [
                     "API",
@@ -71022,6 +71577,24 @@
                     "20.200.160.160/27",
                     "52.147.97.16/28",
                     "52.147.97.32/27"
+                ],
+                "networkFeatures": null
+            }
+        },
+        {
+            "name": "LogicApps.MalaysiaSouth",
+            "id": "LogicApps.MalaysiaSouth",
+            "properties": {
+                "changeNumber": 1,
+                "region": "malaysiasouth",
+                "regionId": 98,
+                "platform": "Azure",
+                "systemService": "LogicApps",
+                "addressPrefixes": [
+                    "20.17.71.80/28",
+                    "20.17.71.96/27",
+                    "2603:1040:1503:400::3d0/124",
+                    "2603:1040:1503:400::3e0/123"
                 ],
                 "networkFeatures": null
             }
@@ -73512,6 +74085,27 @@
                 "systemService": "MicrosoftContainerRegistry",
                 "addressPrefixes": [
                     "52.231.146.88/29"
+                ],
+                "networkFeatures": [
+                    "API",
+                    "NSG",
+                    "UDR",
+                    "FW"
+                ]
+            }
+        },
+        {
+            "name": "MicrosoftContainerRegistry.MalaysiaSouth",
+            "id": "MicrosoftContainerRegistry.MalaysiaSouth",
+            "properties": {
+                "changeNumber": 1,
+                "region": "malaysiasouth",
+                "regionId": 98,
+                "platform": "Azure",
+                "systemService": "MicrosoftContainerRegistry",
+                "addressPrefixes": [
+                    "20.17.66.64/29",
+                    "2603:1040:1503:400::40/125"
                 ],
                 "networkFeatures": [
                     "API",
@@ -77135,6 +77729,22 @@
             }
         },
         {
+            "name": "PowerQueryOnline.MalaysiaSouth",
+            "id": "PowerQueryOnline.MalaysiaSouth",
+            "properties": {
+                "changeNumber": 1,
+                "region": "malaysiasouth",
+                "regionId": 98,
+                "platform": "Azure",
+                "systemService": "PowerQueryOnline",
+                "addressPrefixes": [
+                    "20.17.48.20/31",
+                    "2603:1040:1503::1c0/123"
+                ],
+                "networkFeatures": null
+            }
+        },
+        {
             "name": "PowerQueryOnline.NorthCentralUS",
             "id": "PowerQueryOnline.NorthCentralUS",
             "properties": {
@@ -78986,6 +79596,22 @@
             }
         },
         {
+            "name": "ServiceFabric.MalaysiaSouth",
+            "id": "ServiceFabric.MalaysiaSouth",
+            "properties": {
+                "changeNumber": 1,
+                "region": "malaysiasouth",
+                "regionId": 98,
+                "platform": "Azure",
+                "systemService": "ServiceFabric",
+                "addressPrefixes": [
+                    "20.17.66.76/30",
+                    "2603:1040:1503:400::58/125"
+                ],
+                "networkFeatures": null
+            }
+        },
+        {
             "name": "ServiceFabric.NorthCentralUS",
             "id": "ServiceFabric.NorthCentralUS",
             "properties": {
@@ -80056,6 +80682,22 @@
                 "addressPrefixes": [
                     "40.80.169.176/29",
                     "52.231.159.38/32"
+                ],
+                "networkFeatures": null
+            }
+        },
+        {
+            "name": "StorageSyncService.MalaysiaSouth",
+            "id": "StorageSyncService.MalaysiaSouth",
+            "properties": {
+                "changeNumber": 1,
+                "region": "malaysiasouth",
+                "regionId": 98,
+                "platform": "Azure",
+                "systemService": "StorageSyncService",
+                "addressPrefixes": [
+                    "20.17.67.240/29",
+                    "2603:1040:1503:400::260/123"
                 ],
                 "networkFeatures": null
             }
@@ -87830,6 +88472,32 @@
                     "2603:1046:1500:1c::/64",
                     "2603:1046:2000:e0::/59",
                     "2603:1047:1:e0::/59"
+                ],
+                "networkFeatures": [
+                    "API",
+                    "NSG"
+                ]
+            }
+        },
+        {
+            "name": "AzureCloud.malaysiasouth",
+            "id": "AzureCloud.malaysiasouth",
+            "properties": {
+                "changeNumber": 1,
+                "region": "malaysiasouth",
+                "regionId": 98,
+                "platform": "Azure",
+                "systemService": "",
+                "addressPrefixes": [
+                    "20.17.0.0/18",
+                    "20.17.64.0/21",
+                    "20.38.21.0/24",
+                    "20.201.146.0/24",
+                    "20.209.66.0/23",
+                    "2603:1040:1502::/47",
+                    "2603:1040:1504::/48",
+                    "2603:1040:1505::/48",
+                    "2603:1046:1500:44::/64"
                 ],
                 "networkFeatures": [
                     "API",
