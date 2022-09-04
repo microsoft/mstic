@@ -85,20 +85,6 @@
         "required": true
     },
     {
-        "id": 3,
-        "serviceArea": "Exchange",
-        "serviceAreaDisplayName": "Exchange Online",
-        "urls": [
-            "r1.res.office365.com",
-            "r3.res.office365.com",
-            "r4.res.office365.com"
-        ],
-        "tcpPorts": "80,443",
-        "expressRoute": false,
-        "category": "Default",
-        "required": true
-    },
-    {
         "id": 5,
         "serviceArea": "Exchange",
         "serviceAreaDisplayName": "Exchange Online",
@@ -191,8 +177,7 @@
         "serviceArea": "Exchange",
         "serviceAreaDisplayName": "Exchange Online",
         "urls": [
-            "*.outlook.com",
-            "attachments.office.net"
+            "*.outlook.com"
         ],
         "tcpPorts": "80,443",
         "expressRoute": false,
@@ -405,13 +390,13 @@
         "serviceArea": "Skype",
         "serviceAreaDisplayName": "Skype for Business Online and Microsoft Teams",
         "urls": [
-            "*.msedge.net",
-            "compass-ssl.microsoft.com"
+            "*.msedge.net"
         ],
         "tcpPorts": "443",
         "expressRoute": false,
         "category": "Default",
-        "required": true
+        "required": false,
+        "notes": "Wildcard being moved to optional prior to being removed"
     },
     {
         "id": 27,
@@ -524,11 +509,7 @@
         "serviceArea": "SharePoint",
         "serviceAreaDisplayName": "SharePoint Online and OneDrive for Business",
         "urls": [
-            "*.gr.global.aa-rt.sharepoint.com",
-            "*.svc.ms",
-            "*-admin.sharepoint.com",
-            "*-files.sharepoint.com",
-            "*-myfiles.sharepoint.com"
+            "*.svc.ms"
         ],
         "tcpPorts": "80,443",
         "expressRoute": false,
@@ -648,10 +629,9 @@
         "serviceArea": "Common",
         "serviceAreaDisplayName": "Microsoft 365 Common and Office Online",
         "urls": [
-            "*.cdn.office.net",
-            "contentstorage.osi.office.net"
+            "*.office.net"
         ],
-        "tcpPorts": "443",
+        "tcpPorts": "443,80",
         "expressRoute": false,
         "category": "Default",
         "required": true
@@ -673,8 +653,7 @@
         "serviceArea": "Common",
         "serviceAreaDisplayName": "Microsoft 365 Common and Office Online",
         "urls": [
-            "*.microsoft.com",
-            "*.office.net"
+            "*.microsoft.com"
         ],
         "tcpPorts": "443",
         "expressRoute": false,
@@ -857,8 +836,7 @@
         "serviceArea": "Common",
         "serviceAreaDisplayName": "Microsoft 365 Common and Office Online",
         "urls": [
-            "*.portal.cloudappsecurity.com",
-            "suite.office.net"
+            "*.portal.cloudappsecurity.com"
         ],
         "tcpPorts": "443",
         "expressRoute": false,
@@ -924,11 +902,8 @@
             "platform.linkedin.com",
             "prod.msocdn.com",
             "shellprod.msocdn.com",
-            "support.content.office.net",
             "support.microsoft.com",
-            "technet.microsoft.com",
-            "videocontent.osi.office.net",
-            "videoplayercdn.osi.office.net"
+            "technet.microsoft.com"
         ],
         "tcpPorts": "443",
         "expressRoute": false,
@@ -942,7 +917,7 @@
         "urls": [
             "*.office365.com"
         ],
-        "tcpPorts": "443",
+        "tcpPorts": "443,80",
         "expressRoute": false,
         "category": "Default",
         "required": true
@@ -999,7 +974,6 @@
         "urls": [
             "*.microsoft.com",
             "*.msocdn.com",
-            "*.office.net",
             "*.onmicrosoft.com"
         ],
         "tcpPorts": "80,443",
@@ -1056,18 +1030,6 @@
             "officeclient.microsoft.com"
         ],
         "tcpPorts": "443",
-        "expressRoute": false,
-        "category": "Default",
-        "required": true
-    },
-    {
-        "id": 88,
-        "serviceArea": "Common",
-        "serviceAreaDisplayName": "Microsoft 365 Common and Office Online",
-        "urls": [
-            "insertmedia.bing.office.net"
-        ],
-        "tcpPorts": "80,443",
         "expressRoute": false,
         "category": "Default",
         "required": true
@@ -1357,7 +1319,6 @@
         "serviceArea": "Common",
         "serviceAreaDisplayName": "Microsoft 365 Common and Office Online",
         "urls": [
-            "*.config.office.net",
             "*.manage.microsoft.com"
         ],
         "tcpPorts": "443",
@@ -1385,18 +1346,6 @@
             "cdnprod.myanalytics.microsoft.com",
             "myanalytics.microsoft.com",
             "myanalytics-gcc.microsoft.com"
-        ],
-        "tcpPorts": "80,443",
-        "expressRoute": false,
-        "category": "Default",
-        "required": true
-    },
-    {
-        "id": 149,
-        "serviceArea": "Common",
-        "serviceAreaDisplayName": "Microsoft 365 Common and Office Online",
-        "urls": [
-            "workplaceanalytics.cdn.office.net"
         ],
         "tcpPorts": "80,443",
         "expressRoute": false,
@@ -1500,6 +1449,18 @@
             "cdn.uci.officeapps.live.com"
         ],
         "tcpPorts": "80,443",
+        "expressRoute": false,
+        "category": "Default",
+        "required": true
+    },
+    {
+        "id": 180,
+        "serviceArea": "Skype",
+        "serviceAreaDisplayName": "Skype for Business Online and Microsoft Teams",
+        "urls": [
+            "compass-ssl.microsoft.com"
+        ],
+        "tcpPorts": "443",
         "expressRoute": false,
         "category": "Default",
         "required": true
