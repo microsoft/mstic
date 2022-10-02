@@ -386,19 +386,6 @@
         "notes": "Teams: Messaging interop with Skype for Business"
     },
     {
-        "id": 26,
-        "serviceArea": "Skype",
-        "serviceAreaDisplayName": "Skype for Business Online and Microsoft Teams",
-        "urls": [
-            "*.msedge.net"
-        ],
-        "tcpPorts": "443",
-        "expressRoute": false,
-        "category": "Default",
-        "required": false,
-        "notes": "Wildcard being moved to optional prior to being removed"
-    },
-    {
         "id": 27,
         "serviceArea": "Skype",
         "serviceAreaDisplayName": "Skype for Business Online and Microsoft Teams",
@@ -1449,6 +1436,18 @@
             "cdn.uci.officeapps.live.com"
         ],
         "tcpPorts": "80,443",
+        "expressRoute": false,
+        "category": "Default",
+        "required": true
+    },
+    {
+        "id": 167,
+        "serviceArea": "Skype",
+        "serviceAreaDisplayName": "Skype for Business Online and Microsoft Teams",
+        "urls": [
+            "*.ecdn.microsoft.com"
+        ],
+        "tcpPorts": "443",
         "expressRoute": false,
         "category": "Default",
         "required": true
