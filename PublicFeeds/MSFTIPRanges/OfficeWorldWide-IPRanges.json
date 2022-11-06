@@ -38,6 +38,7 @@
             "2a01:111:f400::/48"
         ],
         "tcpPorts": "80,443",
+        "udpPorts": "443",
         "expressRoute": true,
         "category": "Optimize",
         "required": true
@@ -1318,7 +1319,8 @@
         "serviceArea": "Common",
         "serviceAreaDisplayName": "Microsoft 365 Common and Office Online",
         "urls": [
-            "*.office.com"
+            "*.office.com",
+            "www.microsoft365.com"
         ],
         "tcpPorts": "80,443",
         "expressRoute": false,
