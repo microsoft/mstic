@@ -175,6 +175,7 @@ Prefix,Type
 168.62.0.0/15, MSFT Public IP Address Block
 169.138.0.0/16, MSFT Public IP Address Block
 170.165.0.0/16, MSFT Public IP Address Block
+172.128.0.0/11, MSFT Public IP Address Block
 172.160.0.0/11, MSFT Public IP Address Block
 172.200.0.0/13, MSFT Public IP Address Block
 172.208.0.0/13, MSFT Public IP Address Block
