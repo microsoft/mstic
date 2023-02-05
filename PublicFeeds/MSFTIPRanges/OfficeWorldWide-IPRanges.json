@@ -34,8 +34,7 @@
             "2620:1ec:8f0::/46",
             "2620:1ec:900::/46",
             "2620:1ec:a92::152/128",
-            "2620:1ec:a92::153/128",
-            "2a01:111:f400::/48"
+            "2620:1ec:a92::153/128"
         ],
         "tcpPorts": "80,443",
         "udpPorts": "443",
@@ -77,8 +76,7 @@
             "2620:1ec:8f0::/46",
             "2620:1ec:900::/46",
             "2620:1ec:a92::152/128",
-            "2620:1ec:a92::153/128",
-            "2a01:111:f400::/48"
+            "2620:1ec:a92::153/128"
         ],
         "tcpPorts": "587",
         "expressRoute": true,
@@ -120,8 +118,7 @@
             "2620:1ec:8f0::/46",
             "2620:1ec:900::/46",
             "2620:1ec:a92::152/128",
-            "2620:1ec:a92::153/128",
-            "2a01:111:f400::/48"
+            "2620:1ec:a92::153/128"
         ],
         "tcpPorts": "143,993",
         "expressRoute": true,
@@ -164,8 +161,7 @@
             "2620:1ec:8f0::/46",
             "2620:1ec:900::/46",
             "2620:1ec:a92::152/128",
-            "2620:1ec:a92::153/128",
-            "2a01:111:f400::/48"
+            "2620:1ec:a92::153/128"
         ],
         "tcpPorts": "995",
         "expressRoute": true,
@@ -198,6 +194,7 @@
             "52.100.0.0/14",
             "52.238.78.88/32",
             "104.47.0.0/17",
+            "2a01:111:f400::/48",
             "2a01:111:f403::/48"
         ],
         "tcpPorts": "443",
@@ -1279,18 +1276,6 @@
         "required": true
     },
     {
-        "id": 128,
-        "serviceArea": "Common",
-        "serviceAreaDisplayName": "Microsoft 365 Common and Office Online",
-        "urls": [
-            "*.manage.microsoft.com"
-        ],
-        "tcpPorts": "443",
-        "expressRoute": false,
-        "category": "Default",
-        "required": true
-    },
-    {
         "id": 147,
         "serviceArea": "Common",
         "serviceAreaDisplayName": "Microsoft 365 Common and Office Online",
@@ -1438,6 +1423,18 @@
             "compass-ssl.microsoft.com"
         ],
         "tcpPorts": "443",
+        "expressRoute": false,
+        "category": "Default",
+        "required": true
+    },
+    {
+        "id": 184,
+        "serviceArea": "Common",
+        "serviceAreaDisplayName": "Microsoft 365 Common and Office Online",
+        "urls": [
+            "*.cloud.microsoft"
+        ],
+        "tcpPorts": "443,80",
         "expressRoute": false,
         "category": "Default",
         "required": true
