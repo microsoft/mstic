@@ -71,207 +71,168 @@ TimeGenerated,IoC,IoC_Type,ExpirationDateTime,Description,Action,ConfidenceScore
 12/21/2022,zero.sudolite.ml,domainname,12/21/2025,Dev-1061 Zerobot affecting IoT devices,Alert,100,Botnet,TRUE,Rapid Release TI,Clear,DEV-1061
 12/21/2022,176.65.137.5,IP,12/21/2025,Dev-1061 Zerobot affecting IoT devices,Alert,100,Botnet,TRUE,Rapid Release TI,Clear,DEV-1061
 12/21/2022,176.65.137.6,IP,12/21/2025,Dev-1061 Zerobot affecting IoT devices,Alert,100,Botnet,TRUE,Rapid Release TI,Clear,DEV-1061
-3/30/2023,fosterunch.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,womnbling.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,zebra-arts.com,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,pennywines.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,choccoline.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,lateparties.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,foundurycolletive.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,jungelfruitime.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,gameboysess.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,healthcovid19.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,codingstudies.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,hoteluxurysm.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,newz-globe.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,hotalsextra.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,nordmanetime.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,fullaniimal.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,wikipedoptions.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,redanddred.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,whiteandpiink.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,agronomsdoc.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,nutureheus.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,timeeforsports.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,treerroots.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,unitedyears.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,eccocredit.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,ecologitics.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,climatestews.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,aqualizas.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,bgnews-bg.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,mikontravels.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,e-gaming.online ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,transformaition.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,betterstime.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,goshopeerz.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,countshops.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,inneture.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,shoppingeos.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,mwww.ro ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,rentalproct.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,bcarental.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,kikocruize.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,elvacream.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,pachadesert.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,razzodev.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,wombatcash.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,globepayinfo.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,job4uhunt.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,ctbgameson.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,adeptary.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,hinterfy.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,biznomex.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,careerhub4u.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,furiamoc.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,motorgamings.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,aniarchit.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,skyphotogreen.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,datacentertime.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,stylelifees.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,kidzlande.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,homelosite.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,zooloow.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,studiesutshifts.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,codingstudies.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,londonistory.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,bestteamlife.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,newsandlocalupdates.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,youristores.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,zooloow.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,kidzlande.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,homelosite.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,studiesutshifts.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,datacentertime.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,homelosite.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,zooloow.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,kidzlande.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,studiesutshifts.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,stylelifees.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,skyphotogreen.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,gardenearthis.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,fullstorelife.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,incollegely.org ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,shoplifys.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,thetimespress.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,studyshifts.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,codinerom.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,gamingcolonys.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,kidzalnd.org ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,wildhour.store ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,wilddog.site ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,garilc.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,runningandbeyond.org ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,fullmoongreyparty.org ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,greenrunners.org ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,sunsandlights.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,techpowerlight.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,gamezess.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,planningly.org ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,luxario.org ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,vinoneros.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,i-reality.online ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,styleanature.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,planetosgame.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,kidsfunland.org ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,fullstorelife.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,localtallk.store ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,allplaces.online ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,sunclub.site ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,thenewsfill.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,wellnessjane.org ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,meehealth.org ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,gameizes.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,playozas.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,foodyplates.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,designaroo.org ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,designspacing.org ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,stockstiming.org ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,hoteliqo.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,projectoid.org ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,study-search.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,tokenberries.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,recovery-plan.org ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,deliverystorz.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,forestaaa.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,addictmetui.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,earthyouwantiis.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,zedforme.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,forestaaa.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,navadatime.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,careers4ad.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,gardenearthis.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,studyreaserch.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,novinite.biz ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,agronomsdoc.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,whiteandpiink.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,nutureheus.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,dressuse.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,iwoodstor.xyz ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,teachlearning.org ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,subcloud.online ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,monvesting.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,elektrozi.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,hoteluxurysm.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,hopsite.online ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,bikersrental.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,takestox.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,sidelot.org ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,powercodings.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,naturemeter.org ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,takebreak.io ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,fullstorelife.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,noraplant.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,forestaaa.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,goodsforuw.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,stayle.co ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,eedloversra.online ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,sevensdfe.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,dsudro.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,gameboysess.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,sseamb.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,healthcovid19.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,noraplant.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,fullstorelife.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,datacentertime.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,recover-your-body.xyz ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,reloadyourbrowser.info ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,comeandpet.me ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,brushyourteeth.online ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,digital-mar.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,retailmark.net ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,dsudro.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,studysliii.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,homeigardens.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,stayle.co ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,studysliii.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,goodsforuw.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,dsudro.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,sseamb.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,sevensdfe.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,koraliowe.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,topuprr.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,zeebefg.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,takebreak.io ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,forestaaa.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,teachlearning.org ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,newsbuiltin.online ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,jyfa.xyz ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,monvesting.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,teachlearning.org ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,elektrozi.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,thepila.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,thegreenlight.xyz ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,gosport24.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,classiccolor.live ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,shoeszise.xyz ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,cleanitgo.info ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,setclass.live ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,white-rhino.online ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,space-moon.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,enrollering.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,newslocalupdates.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,newsbuiltin.online ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,beendos.com ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,linestrip.online ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
-3/30/2023,sunnyweek.site ,domainname,6/30/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+5/30/2022,fosterunch.com,domainname,7/11/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+5/30/2022,womnbling.com,domainname,7/11/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+5/31/2022,zebra-arts.com,domainname,7/11/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+8/19/2022,pennywines.com,domainname,7/11/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+8/19/2022,choccoline.com,domainname,7/11/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+3/30/2023,lateparties.com,domainname,7/11/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+11/7/2022,foundurycolletive.com,domainname,7/11/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+11/9/2022,jungelfruitime.com,domainname,7/11/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+11/9/2022,gameboysess.com,domainname,7/11/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+11/10/2022,healthcovid19.com,domainname,7/11/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+11/16/2022,codingstudies.com,domainname,7/11/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+11/9/2022,hoteluxurysm.com,domainname,7/11/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+11/23/2022,newz-globe.com,domainname,7/11/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+11/23/2022,hotalsextra.com,domainname,7/11/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+11/23/2022,nordmanetime.com,domainname,7/11/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+11/23/2022,fullaniimal.com,domainname,7/11/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+11/23/2022,wikipedoptions.com,domainname,7/11/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+11/23/2022,redanddred.com,domainname,7/11/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+11/16/2022,whiteandpiink.com,domainname,7/11/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+11/16/2022,agronomsdoc.com,domainname,7/11/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+11/18/2022,nutureheus.com,domainname,7/11/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+12/15/2022,timeeforsports.com,domainname,7/11/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+12/15/2022,treerroots.com,domainname,7/11/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+12/15/2022,unitedyears.com,domainname,7/11/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+12/16/2022,eccocredit.com,domainname,7/11/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+12/19/2022,ecologitics.com,domainname,7/11/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+12/19/2022,climatestews.com,domainname,7/11/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+12/19/2022,aqualizas.com,domainname,7/11/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+12/20/2022,bgnews-bg.com,domainname,7/11/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+12/23/2022,mikontravels.com,domainname,7/11/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+12/23/2022,e-gaming.online,domainname,7/11/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+12/23/2022,transformaition.com,domainname,7/11/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+12/23/2022,betterstime.com,domainname,7/11/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+12/23/2022,goshopeerz.com,domainname,7/11/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+12/23/2022,countshops.com,domainname,7/11/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+12/23/2022,inneture.com,domainname,7/11/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+12/23/2022,shoppingeos.com,domainname,7/11/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+1/5/2023,mwww.ro,domainname,7/11/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+1/5/2023,rentalproct.com,domainname,7/11/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+1/5/2023,bcarental.com,domainname,7/11/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+1/5/2023,kikocruize.com,domainname,7/11/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+1/10/2023,elvacream.com,domainname,7/11/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+1/23/2023,pachadesert.com,domainname,7/11/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+2/6/2023,razzodev.com,domainname,7/11/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+2/6/2023,wombatcash.com,domainname,7/11/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+2/6/2023,globepayinfo.com,domainname,7/11/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+2/8/2023,job4uhunt.com,domainname,7/11/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+2/8/2023,ctbgameson.com,domainname,7/11/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+2/8/2023,adeptary.com,domainname,7/11/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+2/8/2023,hinterfy.com,domainname,7/11/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+2/8/2023,biznomex.com,domainname,7/11/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+2/8/2023,careerhub4u.com,domainname,7/11/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+2/8/2023,furiamoc.com,domainname,7/11/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+2/8/2023,motorgamings.com,domainname,7/11/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+2/8/2023,aniarchit.com,domainname,7/11/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+2/26/2023,skyphotogreen.com,domainname,7/11/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+11/4/2022,datacentertime.com,domainname,7/11/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+2/26/2023,stylelifees.com,domainname,7/11/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+11/10/2022,kidzlande.com,domainname,7/11/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+11/9/2022,homelosite.com,domainname,7/11/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+11/10/2022,studiesutshifts.com,domainname,7/11/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+3/8/2023,codingstudies.com,domainname,7/11/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+3/16/2023,londonistory.com,domainname,7/11/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+3/16/2023,bestteamlife.com,domainname,7/11/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+3/16/2023,newsandlocalupdates.com,domainname,7/11/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+3/16/2023,youristores.com,domainname,7/11/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+11/10/2022,zooloow.com,domainname,7/11/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+11/7/2022,gardenearthis.com,domainname,2/25/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+11/4/2022,fullstorelife.com,domainname,2/25/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+5/24/2022,incollegely.org,domainname,1/20/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+5/26/2022,shoplifys.com,domainname,1/20/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+6/24/2022,thetimespress.com,domainname,1/20/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+6/24/2022,studyshifts.com,domainname,1/20/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+6/24/2022,codinerom.com,domainname,1/20/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+7/10/2022,gamingcolonys.com,domainname,1/20/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+7/17/2022,kidzalnd.org,domainname,1/20/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+7/26/2022,wildhour.store,domainname,1/20/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+7/26/2022,wilddog.site,domainname,1/20/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+7/26/2022,garilc.com,domainname,1/20/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+8/4/2022,runningandbeyond.org,domainname,1/20/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+8/4/2022,fullmoongreyparty.org,domainname,1/20/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+8/4/2022,greenrunners.org,domainname,1/20/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+8/9/2022,sunsandlights.com,domainname,1/20/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+8/16/2022,techpowerlight.com,domainname,1/20/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+8/29/2022,gamezess.com,domainname,1/20/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+8/29/2022,planningly.org,domainname,1/20/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+9/3/2022,luxario.org,domainname,1/20/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+9/3/2022,vinoneros.com,domainname,1/20/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+9/7/2022,i-reality.online,domainname,1/20/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+9/7/2022,styleanature.com,domainname,1/20/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+12/12/2022,planetosgame.com,domainname,1/20/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+7/29/2022,kidsfunland.org,domainname,1/19/2023,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+1/26/2022,localtallk.store,domainname,12/20/2022,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+1/26/2022,allplaces.online,domainname,12/20/2022,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+1/26/2022,sunclub.site,domainname,12/20/2022,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+5/26/2022,thenewsfill.com,domainname,12/20/2022,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+5/26/2022,wellnessjane.org,domainname,12/20/2022,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+5/27/2022,meehealth.org,domainname,12/20/2022,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+7/20/2022,gameizes.com,domainname,12/20/2022,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+7/20/2022,playozas.com,domainname,12/20/2022,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+7/20/2022,foodyplates.com,domainname,12/20/2022,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+8/29/2022,designaroo.org,domainname,12/20/2022,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+8/29/2022,designspacing.org,domainname,12/20/2022,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+9/1/2022,stockstiming.org,domainname,12/20/2022,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+9/1/2022,hoteliqo.com,domainname,12/20/2022,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+9/1/2022,projectoid.org,domainname,12/20/2022,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+9/1/2022,study-search.com,domainname,12/20/2022,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+9/3/2022,tokenberries.com,domainname,12/20/2022,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+9/7/2022,recovery-plan.org,domainname,12/20/2022,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+9/7/2022,deliverystorz.com,domainname,12/20/2022,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+10/3/2022,forestaaa.com,domainname,12/20/2022,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+10/20/2022,addictmetui.com,domainname,12/20/2022,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+10/20/2022,earthyouwantiis.com,domainname,12/20/2022,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+10/20/2022,zedforme.com,domainname,12/20/2022,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+11/10/2022,navadatime.com,domainname,12/15/2022,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+11/13/2022,careers4ad.com,domainname,12/15/2022,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+11/9/2022,studyreaserch.com,domainname,12/14/2022,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+8/31/2022,novinite.biz,domainname,12/14/2022,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+9/18/2022,dressuse.com,domainname,11/20/2022,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+9/18/2022,iwoodstor.xyz,domainname,11/20/2022,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+7/19/2022,teachlearning.org,domainname,11/20/2022,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+9/12/2022,subcloud.online,domainname,11/20/2022,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+7/19/2022,monvesting.com,domainname,11/20/2022,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+9/21/2022,elektrozi.com,domainname,9/15/2022,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+11/13/2022,hopsite.online,domainname,11/14/2022,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+5/24/2022,bikersrental.com,domainname,11/13/2022,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+5/24/2022,takestox.com,domainname,11/13/2022,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+5/24/2022,sidelot.org,domainname,11/13/2022,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+8/21/2022,powercodings.com,domainname,11/13/2022,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+8/21/2022,naturemeter.org,domainname,11/13/2022,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+6/21/2022,takebreak.io,domainname,11/13/2022,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+11/4/2022,noraplant.com,domainname,11/9/2022,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+19/20/2022,goodsforuw.com,domainname,11/7/2022,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+10/26/2022,stayle.co,domainname,10/24/2022,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+10/28/2022,eedloversra.online,domainname,11/7/2022,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+10/20/2022,sevensdfe.com,domainname,11/7/2022,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+10/20/2022,dsudro.com,domainname,11/7/2022,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+10/20/2022,sseamb.com,domainname,11/6/2022,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+1/6/2022,recover-your-body.xyz,domainname,11/2/2022,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+7/5/2022,reloadyourbrowser.info,domainname,11/2/2022,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+7/5/2022,comeandpet.me,domainname,11/2/2022,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+7/5/2022,brushyourteeth.online,domainname,11/2/2022,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+8/10/2022,digital-mar.com,domainname,11/2/2022,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+8/16/2022,retailmark.net,domainname,11/2/2022,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+10/20/2022,studysliii.com,domainname,11/2/2022,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+9/7/2022,homeigardens.com,domainname,10/29/2022,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+4/5/2022,koraliowe.com,domainname,10/13/2022,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+4/5/2022,topuprr.com,domainname,10/13/2022,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+4/5/2022,zeebefg.com,domainname,10/12/2022,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+9/15/2022,newsbuiltin.online,domainname,9/17/2022,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+9/15/2022,jyfa.xyz,domainname,9/17/2022,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+9/15/2022,thepila.com,domainname,9/15/2022,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+1/11/2022,thegreenlight.xyz,domainname,9/14/2022,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+1/11/2022,gosport24.com,domainname,9/14/2022,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+1/11/2022,classiccolor.live,domainname,9/11/2022,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+2/24/2022,shoeszise.xyz,domainname,9/11/2022,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+2/24/2022,cleanitgo.info,domainname,9/11/2022,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+2/24/2022,setclass.live,domainname,9/11/2022,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+4/14/2022,white-rhino.online,domainname,9/11/2022,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+4/14/2022,space-moon.com,domainname,9/11/2022,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+5/24/2022,enrollering.com,domainname,9/11/2022,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+8/19/2022,newslocalupdates.com,domainname,9/11/2022,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+4/14/2022,beendos.com,domainname,9/10/2022,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+7/1/2022,linestrip.online,domainname,9/7/2022,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
+7/1/2022,sunnyweek.site,domainname,9/7/2022,"Dev-0196: Quadream's ""KingsPawn"" malware used to target civil society",Alert,100,Mobile Malware,TRUE,Rapid Release TI,Clear,DEV-0196
