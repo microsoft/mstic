@@ -752,37 +752,6 @@
         "required": true
     },
     {
-        "id": 65,
-        "serviceArea": "Common",
-        "serviceAreaDisplayName": "Microsoft 365 Common and Office Online",
-        "urls": [
-            "account.office.net"
-        ],
-        "ips": [
-            "52.108.0.0/14",
-            "2603:1006:1400::/40",
-            "2603:1016:2400::/40",
-            "2603:1026:2400::/40",
-            "2603:1036:2400::/40",
-            "2603:1046:1400::/40",
-            "2603:1056:1400::/40",
-            "2a01:111:200a:a::/64",
-            "2a01:111:2035:8::/64",
-            "2a01:111:f406:1::/64",
-            "2a01:111:f406:c00::/64",
-            "2a01:111:f406:1004::/64",
-            "2a01:111:f406:1805::/64",
-            "2a01:111:f406:3404::/64",
-            "2a01:111:f406:8000::/64",
-            "2a01:111:f406:8801::/64",
-            "2a01:111:f406:a003::/64"
-        ],
-        "tcpPorts": "80,443",
-        "expressRoute": true,
-        "category": "Allow",
-        "required": true
-    },
-    {
         "id": 66,
         "serviceArea": "Common",
         "serviceAreaDisplayName": "Microsoft 365 Common and Office Online",
