@@ -718,7 +718,6 @@
             "*.msftauthimages.net",
             "*.phonefactor.net",
             "enterpriseregistration.windows.net",
-            "management.azure.com",
             "policykeyservice.dc.ad.msft.net"
         ],
         "tcpPorts": "80,443",
