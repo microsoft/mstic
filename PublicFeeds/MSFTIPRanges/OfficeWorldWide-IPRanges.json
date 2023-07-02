@@ -266,7 +266,7 @@
         "serviceArea": "Skype",
         "serviceAreaDisplayName": "Skype for Business Online and Microsoft Teams",
         "urls": [
-            "*.adl.windows.com"
+            "adl.windows.com"
         ],
         "tcpPorts": "80,443",
         "expressRoute": false,
@@ -1206,18 +1206,6 @@
         "required": true
     },
     {
-        "id": 157,
-        "serviceArea": "Common",
-        "serviceAreaDisplayName": "Microsoft 365 Common and Office Online",
-        "urls": [
-            "ocsp.int-x3.letsencrypt.org"
-        ],
-        "tcpPorts": "80",
-        "expressRoute": false,
-        "category": "Default",
-        "required": true
-    },
-    {
         "id": 158,
         "serviceArea": "Common",
         "serviceAreaDisplayName": "Microsoft 365 Common and Office Online",
@@ -1283,7 +1271,8 @@
         "serviceArea": "Common",
         "serviceAreaDisplayName": "Microsoft 365 Common and Office Online",
         "urls": [
-            "*.cloud.microsoft"
+            "*.cloud.microsoft",
+            "*.static.microsoft"
         ],
         "tcpPorts": "443,80",
         "expressRoute": false,
