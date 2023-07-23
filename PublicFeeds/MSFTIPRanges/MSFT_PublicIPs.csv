@@ -257,6 +257,14 @@ Prefix,Type
 206.191.224.0/19, MSFT Public IP Address Block
 207.46.0.0/16, MSFT Public IP Address Block
 207.68.128.0/18, MSFT Public IP Address Block
+207.68.143.144/30, MSFT Public IP Address Block
+207.68.143.148/30, MSFT Public IP Address Block
+207.68.143.224/30, MSFT Public IP Address Block
+207.68.149.80/30, MSFT Public IP Address Block
+207.68.149.84/30, MSFT Public IP Address Block
+207.68.149.88/30, MSFT Public IP Address Block
+207.68.149.92/30, MSFT Public IP Address Block
+207.68.149.96/30, MSFT Public IP Address Block
 208.68.136.0/21, MSFT Public IP Address Block
 208.76.44.0/22, MSFT Public IP Address Block
 208.84.0.0/21, MSFT Public IP Address Block
