@@ -47,7 +47,6 @@
         "serviceArea": "Exchange",
         "serviceAreaDisplayName": "Exchange Online",
         "urls": [
-            "*.outlook.office.com",
             "outlook.office365.com",
             "smtp.office365.com"
         ],
@@ -809,6 +808,7 @@
         "serviceArea": "Common",
         "serviceAreaDisplayName": "Microsoft 365 Common and Office Online",
         "urls": [
+            "*.azureedge.net",
             "*.microsoft.com",
             "*.msocdn.com",
             "*.onmicrosoft.com"
@@ -902,7 +902,8 @@
         "serviceAreaDisplayName": "Microsoft 365 Common and Office Online",
         "urls": [
             "officecdn.microsoft.com",
-            "officecdn.microsoft.com.edgesuite.net"
+            "officecdn.microsoft.com.edgesuite.net",
+            "otelrules.azureedge.net"
         ],
         "tcpPorts": "80,443",
         "expressRoute": false,
@@ -916,11 +917,8 @@
         "urls": [
             "*.virtualearth.net",
             "c.bing.net",
-            "excelbingmap.firstpartyapps.oaspapps.com",
             "ocos-office365-s2s.msedge.net",
-            "peoplegraph.firstpartyapps.oaspapps.com",
             "tse1.mm.bing.net",
-            "wikipedia.firstpartyapps.oaspapps.com",
             "www.bing.com"
         ],
         "tcpPorts": "80,443",
@@ -993,7 +991,6 @@
             "c.bing.com",
             "c.live.com",
             "d.docs.live.net",
-            "directory.services.live.com",
             "docs.live.net",
             "partnerservices.getmicrosoftkey.com",
             "signup.live.com"
@@ -1272,7 +1269,8 @@
         "serviceAreaDisplayName": "Microsoft 365 Common and Office Online",
         "urls": [
             "*.cloud.microsoft",
-            "*.static.microsoft"
+            "*.static.microsoft",
+            "*.usercontent.microsoft"
         ],
         "tcpPorts": "443,80",
         "expressRoute": false,
