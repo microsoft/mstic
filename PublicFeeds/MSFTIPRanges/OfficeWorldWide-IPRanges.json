@@ -183,45 +183,6 @@
         "required": true
     },
     {
-        "id": 13,
-        "serviceArea": "Skype",
-        "serviceAreaDisplayName": "Skype for Business Online and Microsoft Teams",
-        "urls": [
-            "*.broadcast.skype.com",
-            "broadcast.skype.com"
-        ],
-        "ips": [
-            "13.107.64.0/18",
-            "52.112.0.0/14",
-            "52.122.0.0/15",
-            "52.238.119.141/32",
-            "52.244.160.207/32",
-            "2603:1027::/48",
-            "2603:1037::/48",
-            "2603:1047::/48",
-            "2603:1057::/48",
-            "2603:1063::/38",
-            "2620:1ec:6::/48",
-            "2620:1ec:40::/42"
-        ],
-        "tcpPorts": "443",
-        "expressRoute": true,
-        "category": "Allow",
-        "required": true
-    },
-    {
-        "id": 15,
-        "serviceArea": "Skype",
-        "serviceAreaDisplayName": "Skype for Business Online and Microsoft Teams",
-        "urls": [
-            "*.sfbassets.com"
-        ],
-        "tcpPorts": "80,443",
-        "expressRoute": false,
-        "category": "Default",
-        "required": true
-    },
-    {
         "id": 16,
         "serviceArea": "Skype",
         "serviceAreaDisplayName": "Skype for Business Online and Microsoft Teams",
@@ -272,33 +233,6 @@
         "category": "Default",
         "required": false,
         "notes": "Applies only to those who deploy the Conference Room Systems"
-    },
-    {
-        "id": 22,
-        "serviceArea": "Skype",
-        "serviceAreaDisplayName": "Skype for Business Online and Microsoft Teams",
-        "urls": [
-            "*.skypeforbusiness.com"
-        ],
-        "ips": [
-            "13.107.64.0/18",
-            "52.112.0.0/14",
-            "52.122.0.0/15",
-            "52.238.119.141/32",
-            "52.244.160.207/32",
-            "2603:1027::/48",
-            "2603:1037::/48",
-            "2603:1047::/48",
-            "2603:1057::/48",
-            "2603:1063::/38",
-            "2620:1ec:6::/48",
-            "2620:1ec:40::/42"
-        ],
-        "tcpPorts": "443",
-        "expressRoute": true,
-        "category": "Allow",
-        "required": false,
-        "notes": "Teams: Messaging interop with Skype for Business"
     },
     {
         "id": 27,
@@ -795,7 +729,6 @@
         "serviceArea": "Common",
         "serviceAreaDisplayName": "Microsoft 365 Common and Office Online",
         "urls": [
-            "*.azureedge.net",
             "*.microsoft.com",
             "*.msocdn.com",
             "*.onmicrosoft.com"
