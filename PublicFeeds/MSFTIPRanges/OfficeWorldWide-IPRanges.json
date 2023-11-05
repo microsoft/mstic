@@ -239,7 +239,6 @@
         "serviceArea": "Skype",
         "serviceAreaDisplayName": "Skype for Business Online and Microsoft Teams",
         "urls": [
-            "*.mstea.ms",
             "*.secure.skypeassets.com",
             "mlccdnprod.azureedge.net"
         ],
@@ -421,6 +420,12 @@
             "13.107.140.6/32",
             "52.108.0.0/14",
             "52.244.37.168/32",
+            "2603:1006:1400::/40",
+            "2603:1016:2400::/40",
+            "2603:1026:2400::/40",
+            "2603:1036:2400::/40",
+            "2603:1046:1400::/40",
+            "2603:1056:1400::/40",
             "2603:1063:2000::/38",
             "2620:1ec:c::15/128",
             "2620:1ec:8fc::6/128",
