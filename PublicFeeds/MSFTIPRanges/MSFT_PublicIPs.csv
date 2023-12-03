@@ -221,15 +221,18 @@ Prefix,Type
 157.60.0.0/16, MSFT Public IP Address Block
 157.81.0.0/16, MSFT Public IP Address Block
 157.95.0.0/16, MSFT Public IP Address Block
+157.172.0.0/16, MSFT Public IP Address Block
 157.176.0.0/16, MSFT Public IP Address Block
 157.252.0.0/16, MSFT Public IP Address Block
 158.23.0.0/16, MSFT Public IP Address Block
+158.24.0.0/16, MSFT Public IP Address Block
 158.158.0.0/16, MSFT Public IP Address Block
 159.27.0.0/16, MSFT Public IP Address Block
 159.128.0.0/16, MSFT Public IP Address Block
 160.4.0.0/16, MSFT Public IP Address Block
 160.207.0.0/16, MSFT Public IP Address Block
 160.234.0.0/16, MSFT Public IP Address Block
+161.157.0.0/16, MSFT Public IP Address Block
 163.57.0.0/16, MSFT Public IP Address Block
 163.228.0.0/16, MSFT Public IP Address Block
 165.15.0.0/16, MSFT Public IP Address Block
@@ -270,12 +273,14 @@ Prefix,Type
 198.200.130.0/24, MSFT Public IP Address Block
 198.206.164.0/24, MSFT Public IP Address Block
 199.30.16.0/20, MSFT Public IP Address Block
+199.50.0.0/16, MSFT Public IP Address Block
 199.60.28.0/24, MSFT Public IP Address Block
 199.74.210.0/24, MSFT Public IP Address Block
 199.103.90.0/23, MSFT Public IP Address Block
 199.103.122.0/24, MSFT Public IP Address Block
 199.242.32.0/20, MSFT Public IP Address Block
 199.242.48.0/21, MSFT Public IP Address Block
+
 202.89.224.0/20, MSFT Public IP Address Block
 204.13.120.0/21, MSFT Public IP Address Block
 204.14.180.0/22, MSFT Public IP Address Block

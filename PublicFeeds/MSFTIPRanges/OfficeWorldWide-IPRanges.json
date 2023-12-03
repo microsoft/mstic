@@ -1165,18 +1165,6 @@
         "required": true
     },
     {
-        "id": 167,
-        "serviceArea": "Skype",
-        "serviceAreaDisplayName": "Skype for Business Online and Microsoft Teams",
-        "urls": [
-            "*.ecdn.microsoft.com"
-        ],
-        "tcpPorts": "443",
-        "expressRoute": false,
-        "category": "Default",
-        "required": true
-    },
-    {
         "id": 180,
         "serviceArea": "Skype",
         "serviceAreaDisplayName": "Skype for Business Online and Microsoft Teams",
