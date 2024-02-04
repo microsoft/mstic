@@ -124,7 +124,8 @@
         "serviceArea": "Exchange",
         "serviceAreaDisplayName": "Exchange Online",
         "urls": [
-            "*.mail.protection.outlook.com"
+            "*.mail.protection.outlook.com",
+            "*.mx.microsoft"
         ],
         "ips": [
             "40.92.0.0/15",
