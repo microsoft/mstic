@@ -203,6 +203,7 @@ Prefix,Type
 135.236.0.0/15, MSFT Public IP Address Block
 135.240.0.0/16, MSFT Public IP Address Block
 135.241.0.0/16, MSFT Public IP Address Block
+135.244.0.0/16, MSFT Public IP Address Block
 137.116.0.0/15, MSFT Public IP Address Block
 137.135.0.0/16, MSFT Public IP Address Block
 137.162.0.0/16, MSFT Public IP Address Block
