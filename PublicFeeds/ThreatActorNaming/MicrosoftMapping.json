@@ -604,5 +604,35 @@
         "Previous name": "DUBNIUM",
         "Origin/Threat": "South Korea",
         "Other names": "Dark Hotel, Tapaoux"
+    },
+    {
+        "Threat actor name": "Salmon Typhoon",
+        "Previous name": "SODIUM",
+        "Origin/Threat": "China",
+        "Other names": "APT4, Maverick Panda"
+    },
+    {
+        "Threat actor name": "Storm-1364",
+        "Previous name": "DEV-1364",
+        "Origin/Threat": "Iran",
+        "Other names": ""
+    },
+    {
+        "Threat actor name": "Storm-0784",
+        "Previous name": "DEV-0784",
+        "Origin/Threat": "Iran",
+        "Other names": ""
+    },
+    {
+        "Threat actor name": "Storm-0861",
+        "Previous name": "DEV-0861",
+        "Origin/Threat": "Iran",
+        "Other names": ""
+    },
+    {
+        "Threat actor name": "Storm-0842",
+        "Previous name": "DEV-0842",
+        "Origin/Threat": "Iran",
+        "Other names": ""
     }
 ]
