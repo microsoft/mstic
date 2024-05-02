@@ -327,7 +327,7 @@
         "Threat actor name": "Seashell Blizzard",
         "Previous name": "IRIDIUM",
         "Origin/Threat": "Russia",
-        "Other names": "Sandworm"
+        "Other names": "APT44,Sandworm"
     },
     {
         "Threat actor name": "Secret Blizzard",
@@ -634,5 +634,29 @@
         "Previous name": "",
         "Origin/Threat": "Iran",
         "Other names": ""
+    },
+    {
+        "Threat actor name": "Storm-1516",
+        "Previous name": "",
+        "Origin/Threat": "Russia,Influence operations",
+        "Other names": ""
+    },
+    {
+        "Threat actor name": "Storm-1376",
+        "Previous name": "",
+        "Origin/Threat": "China,Influence operations",
+        "Other names": ""
+    },
+    {
+        "Threat actor name": "Storm-1175",
+        "Previous name": "",
+        "Origin/Threat": "Financially motivated",
+        "Other names": ""
+    },
+    {
+        "Threat actor name": "Leopard Typhoon",
+        "Previous name": "LEAD",
+        "Origin/Threat": "China",
+        "Other names": "KAOS, Mana, Winnti, Red Diablo"
     }
 ]
