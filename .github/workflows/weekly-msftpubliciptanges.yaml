@@ -33,7 +33,7 @@ jobs:
       - name: Check if there are changes to commit
         id: check_diff
         run: |
-          git diff --quiet . || echo "changed=true" >> $GITHUB_OUTPUT
+          git diff --quiet master || echo "changed=true" >> $GITHUB_OUTPUT
 
       - name: Commit files
         if: steps.check_diff.outputs.changed == 'true'
