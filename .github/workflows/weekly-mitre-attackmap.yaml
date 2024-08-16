@@ -30,7 +30,15 @@ jobs:
       - name: 🚀 Run automation script
         run: python master/.script/mitre-attackmap.py
 
+      - name: Check if there are changes to commit
+        id: check_diff
+        run: |
+          cd master
+          git diff --quiet . || echo "changed=true" >> $GITHUB_OUTPUT
+          cd ..
+
       - name: Commit files
+        if: steps.check_diff.outputs.changed == 'true'
         run: |
           cd master
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -40,5 +48,6 @@ jobs:
 
       - name: Push changes
         uses: ad-m/github-push-action@master
+        if: steps.check_diff.outputs.changed == 'true'
         with:
           directory: "master"
