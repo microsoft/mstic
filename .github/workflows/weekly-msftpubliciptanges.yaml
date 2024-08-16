@@ -11,13 +11,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: 🍽️ Checkout the repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           path: master
           fetch-depth: 0
 
       - name: 🐍 Set up Python 3.8
-        uses: actions/setup-python@v3
+        uses: actions/setup-python@v5
         with:
           python-version: "3.8"
           architecture: "x64"
@@ -25,12 +25,18 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install requests pandas  requests_html
+          pip install requests pandas lxml_html_clean requests_html
 
       - name: 🚀 Run automation script
         run: python master/.script/get-msftpubliip-servicetags.py
 
+      - name: Check if there are changes to commit
+        id: check_diff
+        run: |
+          git diff --quiet . || echo "changed=true" >> $GITHUB_OUTPUT
+
       - name: Commit files
+        if: steps.check_diff.outputs.changed == 'true'
         run: |
           cd master
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -40,5 +46,6 @@ jobs:
 
       - name: Push changes
         uses: ad-m/github-push-action@master
+        if: steps.check_diff.outputs.changed == 'true'
         with:
           directory: "master"
