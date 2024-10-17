@@ -9,9 +9,11 @@ jobs:
   download-mitreattackmap:
     name: Weekly workflow to parse all Microsoft Sentinel and Microsoft Security Services Built-in Alerts to csv file
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: 🍽️ Checkout the repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v2
         with:
           path: master
           fetch-depth: 0
@@ -51,3 +53,4 @@ jobs:
         if: steps.check_diff.outputs.changed == 'true'
         with:
           directory: "master"
+          github_token: ${{ secrets.GITHUB_TOKEN }}
