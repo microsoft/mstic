@@ -3,7 +3,7 @@ name: Daily TorGuard VPN Servers Feed
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 0 * * *" # Runs at 00:00 AM (UTC) everyday (Check https://crontab.guru/#0_0_*_*_*)
+    - cron: "0 4 * * *" # Runs at 00:00 AM (UTC) everyday (Check https://crontab.guru/#0_0_*_*_*)
 
 jobs:
   download-torguardvpnservers:
