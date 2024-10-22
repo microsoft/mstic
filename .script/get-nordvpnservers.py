@@ -30,13 +30,13 @@ def main():
         level=logging.DEBUG,
         format="%(asctime)s:%(levelname)s: %(message)s",
     )
-    api_url = "https://api.nordvpn.com/server"
+    api_url = "https://api.nordvpn.com/v1/servers"
     logging.info("Python main function started")
     logging.info(f"Downloading Nord VPN server list using API from {api_url}")
 
     curr_path = Path.cwd()
     out_path = (
-        curr_path / "master" / "PublicFeeds" / "NordVPNDaily" / "nordvpn-servers.csv"
+        curr_path / "master" / "PublicFeeds" / "NordVPNDaily" / "nordvpn-servers.json"
     )
     try:
         out_path.parents[0].mkdir(parents=True, exist_ok=False)
@@ -45,7 +45,7 @@ def main():
     else:
         logging.info(f"{out_path} Folder was created")
 
-    logging.info(f"Writing csv file to output directory : {out_path}")
+    logging.info(f"Writing JSON file to output directory : {out_path}")
     download_nord_vpn_servers(api_url, out_path)
 
 
