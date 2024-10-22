@@ -1,0 +1,44 @@
+name: Daily PIA VPN Servers Feed
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * *" # Runs at 00:00 AM (UTC) everyday (Check https://crontab.guru/#0_0_*_*_*)
+
+jobs:
+  download-piavpnservers:
+    name: Download PIA VPN Servers via API
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🍽️ Checkout the repo
+        uses: actions/checkout@v3
+        with:
+          path: master
+          fetch-depth: 0
+
+      - name: 🐍 Set up Python 3.8
+        uses: actions/setup-python@v3
+        with:
+          python-version: "3.8"
+          architecture: "x64"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests pandas
+
+      - name: 🚀 Run automation script
+        run: python  master/.script/get-piavpnservers.py
+
+      - name: Commit files
+        run: |
+          cd master
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add *
+          git commit -m "Adding new PIA vpn servers daily feed" -a
+
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          directory: "master"
