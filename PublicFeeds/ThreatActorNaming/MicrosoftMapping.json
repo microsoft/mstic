@@ -154,7 +154,6 @@
 		"Origin/Threat": "Iran",
 		"Other names": "DEV-0343"
 	},
-
 	{
 		"Threat actor name": "Hazel Sandstorm",
 		"Origin/Threat": "Iran",
@@ -357,7 +356,8 @@
 	},
 	{
 		"Threat actor name": "Salt Typhoon",
-		"Origin/Threat": "China","Other names": "GhostEmperor, FamousSparrow"
+		"Origin/Threat": "China",
+		"Other names": "GhostEmperor, FamousSparrow"
 	},
 	{
 		"Threat actor name": "Sangria Tempest",
@@ -459,7 +459,6 @@
 		"Origin/Threat": "Financially motivated",
 		"Other names": ""
 	},
-
 	{
 		"Threat actor name": "Storm-0569",
 		"Origin/Threat": "Financially motivated",
@@ -619,5 +618,5 @@
 		"Threat actor name": "Zigzag Hail",
 		"Origin/Threat": "Korea",
 		"Other names": "DUBNIUM, Nemim, TEMPLAR, TieOnJoe, Fallout Team, Purple Pygmy, Dark Hotel, Egobot, Tapaoux, PALADIN, Darkhotel"
-	},
+	}
 ]
