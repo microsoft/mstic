@@ -1,3 +1,15 @@
+# This script is provided as is by Microsoft as intended to allow the detection of publicly disclosed machine key element values
+# within web.config files that are used by the IIS Web Server on Windows Server on Windows Client operating systems.
+# The script can also scan arbitrary .config files for the presence of the <machineKey> element inside the <system.Web> attribute
+# and detect if the values contained in the file are matching publicly disclosed ones.
+
+# usage:
+# run MachineKey-Scan.ps1 - to allow for scanning of all web.config files that are in usage by the IIS web-server
+# run MachineKey-Scan.ps1 -ConfigFile <pathToConfigFile> to scan an arbitrary configuration file for the presence of 
+# publicly disclosed key values.
+
+# version 1.2
+
 param(
     [string]$ConfigFile # Optional: User-provided config file
 )
@@ -20,6 +32,35 @@ try {
 # Load the WebAdministration module
 Import-Module WebAdministration
 
+
+# Method to get the .NET Framework installation folder
+function Get-DotNetFrameworkFolder {
+    param (
+        [string]$version,
+        [string]$architecture
+    )
+
+    Write-Host -ForegroundColor Yellow "`n*** Checking for .Net Framework installation version: ($version) and architecture ($architecture)"
+
+    if ($architecture -eq "64-bit") {
+        $registryPath = "HKLM:\SOFTWARE\Microsoft\NET Framework Setup\NDP\$version\Full"
+    } else {
+        $registryPath = "HKLM:\SOFTWARE\WOW6432Node\Microsoft\NET Framework Setup\NDP\$version\Full"
+    }
+
+    $installPath = (Get-ItemProperty -Path $registryPath -Name InstallPath -ErrorAction SilentlyContinue).InstallPath
+
+    #return $installPath
+    if ($installPath) {
+        return $installPath
+    } else {
+        Write-Host -ForegroundColor Yellow "`tThe specified .NET Framework version ($version) is not installed."
+        return $null
+    }
+}
+
+
+
 # Define the method allowing to check the machineKey element for known disclosed key values
 function Check-MachineKey {
     param (
@@ -38,19 +79,20 @@ function Check-MachineKey {
         $machineKey = $webConfig.configuration.'system.web'.machineKey
         $validationKey = $machineKey.validationKey
         $decryptionKey = $machineKey.decryptionKey   
+        
         if ($validationKey) {
-            $hashValidationKey = [BitConverter]::ToString([System.Security.Cryptography.SHA256]::Create().ComputeHash([System.Text.Encoding]::UTF8.GetBytes($validationKey))) -replace "-", ""
+            $hashValidationKey = [BitConverter]::ToString([System.Security.Cryptography.SHA256]::Create().ComputeHash([System.Text.Encoding]::UTF8.GetBytes($validationKey.ToUpper()))) -replace "-", ""
             if ($hashedKeyContents -match $hashValidationKey) {
                 Write-Host -ForegroundColor Red "${tabs}!!!WARNING!!!: validationKey $validationKey - is publicly disclosed!"
             }
         }
 
         if ($decryptionKey) {
-            $hashDecryptionKey = [BitConverter]::ToString([System.Security.Cryptography.SHA256]::Create().ComputeHash([System.Text.Encoding]::UTF8.GetBytes($decryptionKey))) -replace "-", ""
+            $hashDecryptionKey = [BitConverter]::ToString([System.Security.Cryptography.SHA256]::Create().ComputeHash([System.Text.Encoding]::UTF8.GetBytes($decryptionKey.ToUpper()))) -replace "-", ""
             if ($hashedKeyContents -match $hashDecryptionKey) {
                 Write-Host -ForegroundColor Red "${tabs}!!!WARNING!!!: decryptionKey $decryptionKey  - is publicly disclosed!"
             }
-        }                       
+        }                          
     } 
 }
 
@@ -68,7 +110,8 @@ function Check-WebApplications {
     if ($webAppCount -gt 0) {
         foreach ($webApp in $webApps) {
             write-host "`tName: $($webApp.Path), Root Folder: $($webApp.PhysicalPath)"
-            $webConfigFiles = Get-ChildItem -Path "$($webApp.PhysicalPath)" -Recurse -Filter "web.config"
+            $webAppPhysicalPathEnv = [Environment]::ExpandEnvironmentVariables($webApp.PhysicalPath)
+            $webConfigFiles = Get-ChildItem -Path "$($webAppPhysicalPathEnv)" -Recurse -Filter "web.config"
             foreach ($webConfigFile in $webConfigFiles) {
                 $webConfigFilePath = $webConfigFile.FullName
                 $webConfigFilePathEnv = [Environment]::ExpandEnvironmentVariables($webConfigFilePath)
@@ -91,7 +134,8 @@ function Check-VirtualDirectories {
     if ($virtualDirCount -gt 0) {
         foreach ($virtualDir in $virtualDirs) {
             write-host "`tName: $($virtualDir.Path), Root Folder: $($virtualDir.PhysicalPath)"
-            $webConfigFiles = Get-ChildItem -Path "$($virtualDir.PhysicalPath)" -Recurse -Filter "web.config"
+            $virtualDirPhysicalPathEnv = [Environment]::ExpandEnvironmentVariables($virtualDir.PhysicalPath)
+            $webConfigFiles = Get-ChildItem -Path "$($virtualDirPhysicalPathEnv)" -Recurse -Filter "web.config"
             foreach ($webConfigFile in $webConfigFiles) {
                 $webConfigFilePath = $webConfigFile.FullName
                 $webConfigFilePathEnv = [Environment]::ExpandEnvironmentVariables($webConfigFilePath)
@@ -130,12 +174,37 @@ if ($ConfigFile) {
 }
 
 
+# Get the Installation of .Net Framework (version 2 and 4, 32 and 64 bits)
+$dotNet2Folder32 = Get-DotNetFrameworkFolder -version "v2.0.50727" -architecture "32-bit"
+$dotNet2Folder64 = Get-DotNetFrameworkFolder -version "v2.0.50727" -architecture "64-bit"
+
+$dotNet4Folder32 = Get-DotNetFrameworkFolder -version "v4" -architecture "32-bit"
+$dotNet4Folder64 = Get-DotNetFrameworkFolder -version "v4" -architecture "64-bit"
+
+# Check if we have the Framework installed, check the config files
+if ($dotNet2Folder32) {
+    Check-MachineKey -webConfigFilePathEnv ($dotNet2Folder32 + "\Config\machine.config") -hashedKeyContents $DisclosedKeys.Content -tabCount 1
+}
+
+if ($dotNet2Folder64) {
+    Check-MachineKey -webConfigFilePathEnv ($dotNet2Folder64 + "\Config\machine.config") -hashedKeyContents $DisclosedKeys.Content -tabCount 1
+}
+
+if ($dotNet4Folder32) {
+    Check-MachineKey -webConfigFilePathEnv ($dotNet4Folder32 + "\Config\machine.config") -hashedKeyContents $DisclosedKeys.Content -tabCount 1
+}
+
+if ($dotNet4Folder64) {
+    Check-MachineKey -webConfigFilePathEnv ($dotNet4Folder64 + "\Config\machine.config") -hashedKeyContents $DisclosedKeys.Content -tabCount 1
+}
+
+
 # Get list of IIS sites
 $sites=Get-ChildItem IIS:\Sites
 # Iterate through each website
 foreach ($site in $sites) 
 {
-   write-host -ForegroundColor DarkYellow "***** Site: $($site.Name)"
+   write-host -ForegroundColor DarkYellow "`n***** Site: $($site.Name)"
    $physicalPath =  [Environment]::ExpandEnvironmentVariables($site.PhysicalPath)    
    $webConfigFiles = Get-ChildItem -Path "$physicalPath" -Recurse -Filter "web.config"
    # Iterate web.config files for each site
