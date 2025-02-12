@@ -18,7 +18,7 @@ param(
 $DisclosedKeysUrl = "https://github.com/microsoft/mstic/blob/master/RapidReleaseTI/MachineKeys.csv"
 
 try {
-    $DisclosedKeys = Invoke-WebRequest -Uri $DisclosedKeysUrl -ErrorAction Stop
+    $DisclosedKeys = Invoke-WebRequest -Uri $DisclosedKeysUrl -ErrorAction Stop -UseBasicParsing
     if (-not $DisclosedKeys -or -not $DisclosedKeys.Content) {
         Write-Host -ForegroundColor Yellow "Error: Downloaded content from $DisclosedKeysUrl is empty."
         exit 1
