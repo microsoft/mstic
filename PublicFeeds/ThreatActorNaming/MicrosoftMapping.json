@@ -15,6 +15,11 @@
 		"Other names": "ACTINIUM, Gamaredon, Armageddon, UNC530, shuckworm, SectorC08, Primitive Bear"
 	},
 	{
+		"Threat actor name": "Berry Sandstorm",
+		"Origin/Threat": "Iran",
+		"Other names": "Storm-0852"
+	},
+	{
 		"Threat actor name": "Blue Tsunami",
 		"Origin/Threat": "Israel, Private sector offensive actor",
 		"Other names": ""
@@ -260,6 +265,11 @@
 		"Other names": "DEV-0206"
 	},
 	{
+		"Threat actor name": "Neva Flood",
+		"Origin/Threat": "Russia, Influence operations",
+		"Other names": "Storm-1516"
+	},
+	{
 		"Threat actor name": "Night Tsunami",
 		"Origin/Threat": "Israel",
 		"Other names": "DEV-0336"
@@ -338,6 +348,11 @@
 		"Threat actor name": "Raspberry Typhoon",
 		"Origin/Threat": "China",
 		"Other names": "RADIUM, LotusBlossom, APT30"
+	},
+	{
+		"Threat actor name": "Red Sandstorm",
+		"Origin/Threat": "Iran",
+		"Other names": "Void Manticore, Storm-0842"
 	},
 	{
 		"Threat actor name": "Ruby Sleet",
@@ -445,6 +460,11 @@
 		"Other names": "Narwhal Spider, TA544"
 	},
 	{
+		"Threat actor name": "Storm-0408",
+		"Origin/Threat": "Group in development",
+		"Other names": ""
+	},
+	{
 		"Threat actor name": "Storm-0501",
 		"Origin/Threat": "Financially motivated",
 		"Other names": "DEV-0501"
@@ -527,6 +547,11 @@
 	{
 		"Threat actor name": "Storm-1811",
 		"Origin/Threat": "Financially motivated",
+		"Other names": ""
+	},
+	{
+		"Threat actor name": "Storm-1865",
+		"Origin/Threat": "Group in development",
 		"Other names": ""
 	},
 	{
@@ -613,6 +638,11 @@
 		"Threat actor name": "Wisteria Tsunami",
 		"Origin/Threat": "India, Private sector offensive actor",
 		"Other names": "DEV-0605"
+	},
+	{
+		"Threat actor name": "Yulong Flood",
+		"Origin/Threat": "China, Influence operations",
+		"Other names": "Storm-1852"
 	},
 	{
 		"Threat actor name": "Zigzag Hail",
