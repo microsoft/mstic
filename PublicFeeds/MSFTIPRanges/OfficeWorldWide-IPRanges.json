@@ -209,19 +209,6 @@
         "required": true
     },
     {
-        "id": 18,
-        "serviceArea": "Skype",
-        "serviceAreaDisplayName": "Microsoft Teams",
-        "urls": [
-            "*.users.storage.live.com"
-        ],
-        "tcpPorts": "443",
-        "expressRoute": false,
-        "category": "Default",
-        "required": false,
-        "notes": "Federation with Skype and public IM connectivity: Contact picture retrieval"
-    },
-    {
         "id": 19,
         "serviceArea": "Skype",
         "serviceAreaDisplayName": "Microsoft Teams",
@@ -277,7 +264,6 @@
         "serviceArea": "SharePoint",
         "serviceAreaDisplayName": "SharePoint Online and OneDrive for Business",
         "urls": [
-            "ssw.live.com",
             "storage.live.com"
         ],
         "tcpPorts": "443",
@@ -832,8 +818,6 @@
             "*.appex.bing.com",
             "c.bing.com",
             "c.live.com",
-            "d.docs.live.net",
-            "docs.live.net",
             "partnerservices.getmicrosoftkey.com",
             "signup.live.com"
         ],
