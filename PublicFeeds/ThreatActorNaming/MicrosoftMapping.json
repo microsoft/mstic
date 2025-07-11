@@ -89,6 +89,11 @@
 		"Other names": "Storm-0139, Storm-1222, LABYRINTH CHOLLIMA"
 	},
 	{
+		"Threat actor name": "Copper Typhoon",
+		"Origin/Threat": "China",
+		"Other names": "Tonto Team, Earth Akhlut, Sharp-R"
+	},
+	{
 		"Threat actor name": "Cotton Sandstorm",
 		"Origin/Threat": "Iran",
 		"Other names": "NEPTUNIUM, HAYWIRE KITTEN, Vice Leaker"
@@ -166,12 +171,12 @@
 	{
 		"Threat actor name": "Hazel Sandstorm",
 		"Origin/Threat": "Iran",
-		"Other names": "EUROPIUM, HELIX KITTEN, COLBALT GYPSY, Crambus, OilRig, APT34"
+		"Other names": "EUROPIUM, HELIX KITTEN, COBALT GYPSY, Crambus, OilRig, APT34"
 	},
 	{
 		"Threat actor name": "Heart Typhoon",
 		"Origin/Threat": "China",
-		"Other names": "HELIUM, AURORA PANDA, APT17, Hidden Lynx, ATG3, Red Typhon, KAOS, TG-8153, SportsFans, DeputyDog, Tailgater"
+		"Other names": "HELIUM, AURORA PANDA, APT17, Hidden Lynx, ATG3, Red Typhoon, KAOS, TG-8153, SportsFans, DeputyDog, Tailgater"
 	},
 	{
 		"Threat actor name": "Hexagon Typhoon",
@@ -187,6 +192,11 @@
 		"Threat actor name": "Jade Sleet",
 		"Origin/Threat": "North Korea",
 		"Other names": "Storm-0954, LABYRINTH CHOLLIMA"
+	},
+	{
+		"Threat actor name": "Jasper Sleet",
+		"Origin/Threat": "North Korea",
+		"Other names": "Storm-0287"
 	},
 	{
 		"Threat actor name": "Lace Tempest",
