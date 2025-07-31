@@ -309,6 +309,11 @@
 		"Other names": "OSMIUM, VELVET CHOLLIMA, Planedown, Konni, APT43"
 	},
 	{
+		"Threat actor name": "Patched Lightning",
+		"Origin/Threat": "",
+		"Other names": "Storm-0113"
+	},
+	{
 		"Threat actor name": "Peach Sandstorm",
 		"Origin/Threat": "Iran",
 		"Other names": "HOLMIUM, REFINED KITTEN, APT33, Elfin"
@@ -596,6 +601,11 @@
 	{
 		"Threat actor name": "Storm-2372",
 		"Origin/Threat": "Group in development",
+		"Other names": ""
+	},
+	{
+		"Threat actor name": "Storm-2603",
+		"Origin/Threat": "China",
 		"Other names": ""
 	},
 	{
