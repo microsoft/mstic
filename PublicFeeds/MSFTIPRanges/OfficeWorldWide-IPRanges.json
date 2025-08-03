@@ -1066,18 +1066,6 @@
         "required": true
     },
     {
-        "id": 180,
-        "serviceArea": "Skype",
-        "serviceAreaDisplayName": "Microsoft Teams",
-        "urls": [
-            "compass-ssl.microsoft.com"
-        ],
-        "tcpPorts": "443",
-        "expressRoute": false,
-        "category": "Default",
-        "required": true
-    },
-    {
         "id": 184,
         "serviceArea": "Common",
         "serviceAreaDisplayName": "Microsoft 365 Common and Office Online",
