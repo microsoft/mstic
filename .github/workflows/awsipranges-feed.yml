@@ -31,19 +31,12 @@ jobs:
       - name: 🚀 Run automation script
         run: python master/.script/get-aws-ip-ranges.py
 
-      - name: Check for changes
+      - name: Check if there are changes to commit
         id: check_diff
         run: |
           cd master
-          if git diff --quiet .; then
-          echo "No changes detected"
-          echo "changed=false" >> $GITHUB_ENV
-          echo "changed=false" >> $GITHUB_OUTPUT
-          else
-          echo "Changes detected"
-          echo "changed=true" >> $GITHUB_ENV
-          echo "changed=true" >> $GITHUB_OUTPUT
-          fi
+          git diff --quiet . || echo "changed=true" >> $GITHUB_OUTPUT
+          cd ..
 
       - name: Commit changes
         if: steps.check_diff.outputs.changed == 'true'
