@@ -16,6 +16,7 @@ jobs:
         with:
           path: master
           fetch-depth: 0
+          ref: master
 
       - name: 🐍 Set up Python 3.8
         uses: actions/setup-python@v3
@@ -34,7 +35,11 @@ jobs:
         id: check_diff
         run: |
           cd master
-          git diff --quiet . || echo "changed=true" >> $GITHUB_OUTPUT
+          if git diff --quiet .; then
+          echo "changed=false" >> $GITHUB_OUTPUT
+          else
+          echo "changed=true" >> $GITHUB_OUTPUT
+          fi
 
       - name: Commit changes
         if: steps.check_diff.outputs.changed == 'true'
