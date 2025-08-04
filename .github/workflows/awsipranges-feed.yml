@@ -36,8 +36,12 @@ jobs:
         run: |
           cd master
           if git diff --quiet .; then
+          echo "No changes detected"
+          echo "changed=false" >> $GITHUB_ENV
           echo "changed=false" >> $GITHUB_OUTPUT
           else
+          echo "Changes detected"
+          echo "changed=true" >> $GITHUB_ENV
           echo "changed=true" >> $GITHUB_OUTPUT
           fi
 
