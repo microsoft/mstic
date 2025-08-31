@@ -221,6 +221,7 @@ Prefix,Type
 72.144.0.0/14, MSFT Public IP Address Block
 72.152.0.0/14, MSFT Public IP Address Block
 74.7.0.0/16, MSFT Public IP Address Block
+74.123.176.0/22, MSFT Public IP Address Block
 74.144.0.0/12, MSFT Public IP Address Block
 74.160.0.0/14, MSFT Public IP Address Block
 74.176.0.0/14, MSFT Public IP Address Block
@@ -385,6 +386,7 @@ Prefix,Type
 149.1.0.0/16, MSFT Public IP Address Block
 149.175.0.0/16, MSFT Public IP Address Block
 149.198.0.0/16, MSFT Public IP Address Block
+
 149.204.0.0/16, MSFT Public IP Address Block
 150.171.0.0/16, MSFT Public IP Address Block
 150.206.0.0/16, MSFT Public IP Address Block
@@ -443,6 +445,10 @@ Prefix,Type
 192.48.225.0/24, MSFT Public IP Address Block
 192.84.159.0/24, MSFT Public IP Address Block
 192.84.160.0/23, MSFT Public IP Address Block
+192.133.61.0/24, MSFT Public IP Address Block
+192.135.86.0/24, MSFT Public IP Address Block
+192.135.87.0/24, MSFT Public IP Address Block
+192.135.88.0/24, MSFT Public IP Address Block
 192.146.133.0/24, MSFT Public IP Address Block
 192.153.251.0/24, MSFT Public IP Address Block
 192.197.157.0/24, MSFT Public IP Address Block
@@ -453,10 +459,13 @@ Prefix,Type
 194.110.197.0/24, MSFT Public IP Address Block
 194.238.128.0/17, MSFT Public IP Address Block
 195.134.224.0/19, MSFT Public IP Address Block
+198.71.64.0/21, MSFT Public IP Address Block
+198.71.72.0/22, MSFT Public IP Address Block
 198.105.232.0/22, MSFT Public IP Address Block
 198.137.97.0/24, MSFT Public IP Address Block
 198.200.130.0/24, MSFT Public IP Address Block
 198.206.164.0/24, MSFT Public IP Address Block
+199.4.159.0/24, MSFT Public IP Address Block
 199.30.16.0/20, MSFT Public IP Address Block
 199.50.0.0/16, MSFT Public IP Address Block
 199.60.28.0/24, MSFT Public IP Address Block
@@ -494,6 +503,8 @@ Prefix,Type
 208.68.136.0/21, MSFT Public IP Address Block
 208.76.44.0/22, MSFT Public IP Address Block
 208.84.0.0/21, MSFT Public IP Address Block
+208.92.176.0/22, MSFT Public IP Address Block
+208.94.120.0/21, MSFT Public IP Address Block
 209.199.0.0/16, MSFT Public IP Address Block
 209.240.192.0/19, MSFT Public IP Address Block
 212.132.0.0/19, MSFT Public IP Address Block
