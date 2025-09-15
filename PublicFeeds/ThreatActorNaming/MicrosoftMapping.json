@@ -119,6 +119,11 @@
 		"Other names": "DEV-0228, IMPERIAL KITTEN"
 	},
 	{
+		"Threat actor name": "Daffodil Gust",
+		"Origin/Threat": "United Arab Emirates",
+		"Other names": "Stealth Falcon, Fruity Armor, Project Raven"
+	},
+	{
 		"Threat actor name": "Denim Tsunami",
 		"Origin/Threat": "Austria, Private sector offensive actor",
 		"Other names": "DEV-0291"
@@ -464,6 +469,11 @@
 		"Other names": "ToddyCat, Websiic"
 	},
 	{
+		"Threat actor name": "Storm-0249",
+		"Origin/Threat": "Group in development",
+		"Other names": ""
+	},	
+	{
 		"Threat actor name": "Storm-0252",
 		"Origin/Threat": "Group in development",
 		"Other names": "CHATTY SPIDER"
@@ -563,6 +573,11 @@
 		"Origin/Threat": "Financially motivated",
 		"Other names": "PUNK SPIDER"
 	},
+	{
+		"Threat actor name": "Storm-1607",
+		"Origin/Threat": "Group in development",
+		"Other names": ""
+	},	
 	{
 		"Threat actor name": "Storm-1674",
 		"Origin/Threat": "Financially motivated",
