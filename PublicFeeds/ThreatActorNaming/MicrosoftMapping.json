@@ -301,7 +301,12 @@
 	{
 		"Threat actor name": "Octo Tempest",
 		"Origin/Threat": "Financially motivated",
-		"Other names": " SCATTERED SPIDER, 0ktapus"
+		"Other names": "SCATTERED SPIDER, 0ktapus"
+	},
+	{
+		"Threat actor name": "Oka Flood",
+		"Origin/Threat": "Russia, Influence operations",
+		"Other names": "Storm-1679"
 	},
 	{
 		"Threat actor name": "Onyx Sleet",
@@ -327,6 +332,11 @@
 		"Threat actor name": "Pearl Sleet",
 		"Origin/Threat": "North Korea",
 		"Other names": "LAWRENCIUM"
+	},
+	{
+		"Threat actor name": "Pepper Typhoon",
+		"Origin/Threat": "China",
+		"Other names": "LIMINAL PANDA, CL-STA-0969"
 	},
 	{
 		"Threat actor name": "Periwinkle Tempest",
@@ -584,11 +594,6 @@
 		"Other names": ""
 	},
 	{
-		"Threat actor name": "Storm-1679",
-		"Origin/Threat": "Influence operations",
-		"Other names": ""
-	},
-	{
 		"Threat actor name": "Storm-1811",
 		"Origin/Threat": "Financially motivated",
 		"Other names": "CURLY SPIDER"
@@ -617,6 +622,21 @@
 		"Threat actor name": "Storm-2372",
 		"Origin/Threat": "Group in development",
 		"Other names": ""
+	},
+	{
+		"Threat actor name": "Storm-2460",
+		"Origin/Threat": "Group in development",
+		"Other names": "Lumma Stealer"
+	},
+	{
+		"Threat actor name": "Storm-2477",
+		"Origin/Threat": "Group in development",
+		"Other names": ""
+	},
+	{
+		"Threat actor name": "Storm-2657",
+		"Origin/Threat": "United States, Financially motivated",
+		"Other names": "Payroll Pirates"
 	},
 	{
 		"Threat actor name": "Storm-2603",
