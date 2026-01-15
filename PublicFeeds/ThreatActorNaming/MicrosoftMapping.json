@@ -89,6 +89,11 @@
 		"Other names": "Storm-0139, Storm-1222, LABYRINTH CHOLLIMA"
 	},
 	{
+		"Threat actor name": "Clay Typhoon",
+		"Origin/Threat": "China",
+		"Other names": "Storm-2416"
+	},	
+	{
 		"Threat actor name": "Copper Typhoon",
 		"Origin/Threat": "China",
 		"Other names": "Tonto Team, Earth Akhlut, Sharp-R"
@@ -464,10 +469,20 @@
 		"Other names": "SEABORGIUM, COLDRIVER, Callisto Group, BlueCharlie, TA446"
 	},
 	{
+		"Threat actor name": "Storm-0133",
+		"Origin/Threat": "Iran",
+		"Other names": "HEXANE, Lyceum, Siamesekitten, Spirlin"
+	},
+	{
+		"Threat actor name": "Storm-0156",
+		"Origin/Threat": "Pakistan",
+		"Other names": "MYTHIC LEOPARD, SideCopy, APT36, Transparent Tribe"
+	},	
+	{
 		"Threat actor name": "Storm-0216",
 		"Origin/Threat": "Financially motivated",
 		"Other names": "TUNNEL SPIDER, UNC2198"
-	},
+	},	
 	{
 		"Threat actor name": "Storm-0230",
 		"Origin/Threat": "Group in development",
@@ -529,6 +544,11 @@
 		"Other names": ""
 	},
 	{
+		"Threat actor name": "Storm-0593",
+		"Origin/Threat": "Russia",
+		"Other names": "InvisiMole"
+	},	
+	{
 		"Threat actor name": "Storm-0671",
 		"Origin/Threat": "Group in development",
 		"Other names": "UNC2596, Tropicalscorpius"
@@ -553,6 +573,11 @@
 		"Origin/Threat": "Financially motivated",
 		"Other names": "APOTHECARY SPIDER"
 	},
+	{
+		"Threat actor name": "Storm-1125",
+		"Origin/Threat": "Belarus",
+		"Other names": "MoustachedBouncer"
+	},	
 	{
 		"Threat actor name": "Storm-1152",
 		"Origin/Threat": "Financially motivated",
@@ -628,6 +653,11 @@
 		"Origin/Threat": "Group in development",
 		"Other names": "Lumma Stealer"
 	},
+	{
+		"Threat actor name": "Storm-2470",
+		"Origin/Threat": "China",
+		"Other names": ""
+	},	
 	{
 		"Threat actor name": "Storm-2477",
 		"Origin/Threat": "Group in development",
