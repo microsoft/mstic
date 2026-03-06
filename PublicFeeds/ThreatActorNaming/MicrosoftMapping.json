@@ -99,6 +99,11 @@
 		"Other names": "Tonto Team, Earth Akhlut, Sharp-R"
 	},
 	{
+		"Threat actor name": "Coral Sleet",
+		"Origin/Threat": "North Korea",
+		"Other names": "Storm-1877"
+	},	
+	{
 		"Threat actor name": "Cotton Sandstorm",
 		"Origin/Threat": "Iran",
 		"Other names": "NEPTUNIUM, HAYWIRE KITTEN, Vice Leaker"
@@ -618,6 +623,11 @@
 		"Origin/Threat": "Financially motivated",
 		"Other names": ""
 	},
+	{
+		"Threat actor name": "Storm-1747",
+		"Origin/Threat": "Group in development",
+		"Other names": ""
+	},	
 	{
 		"Threat actor name": "Storm-1811",
 		"Origin/Threat": "Financially motivated",
