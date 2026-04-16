@@ -426,7 +426,7 @@
 	{
 		"Threat actor name": "Sapphire Sleet",
 		"Origin/Threat": "North Korea",
-		"Other names": "COPERNICIUM, STARDUST CHOLLIMA, Genie Spider, BlueNoroff, CageyChameleon, CryptoCore"
+		"Other names": "COPERNICIUM, UNC1069, STARDUST CHOLLIMA, Alluring Pisces, BlueNoroff, CageyChameleon, CryptoCore"
 	},
 	{
 		"Threat actor name": "Satin Typhoon",
@@ -507,6 +507,11 @@
 		"Threat actor name": "Storm-0252",
 		"Origin/Threat": "Group in development",
 		"Other names": "CHATTY SPIDER"
+	},
+	{
+		"Threat actor name": "Storm-0259",
+		"Origin/Threat": "Group in development",
+		"Other names": ""
 	},
 	{
 		"Threat actor name": "Storm-0288",
@@ -614,6 +619,11 @@
 		"Other names": "PUNK SPIDER"
 	},
 	{
+		"Threat actor name": "Storm-1575",
+		"Origin/Threat": "Group in development",
+		"Other names": ""
+	},
+	{
 		"Threat actor name": "Storm-1607",
 		"Origin/Threat": "Group in development",
 		"Other names": ""
@@ -654,6 +664,11 @@
 		"Other names": "TAG-100"
 	},
 	{
+		"Threat actor name": "Storm-2227",
+		"Origin/Threat": "Group in development",
+		"Other names": ""
+	},
+	{
 		"Threat actor name": "Storm-2372",
 		"Origin/Threat": "Group in development",
 		"Other names": ""
@@ -674,15 +689,30 @@
 		"Other names": ""
 	},
 	{
-		"Threat actor name": "Storm-2657",
-		"Origin/Threat": "United States, Financially motivated",
-		"Other names": "Payroll Pirates"
+		"Threat actor name": "Storm-2561",
+		"Origin/Threat": "Group in development",
+		"Other names": ""
 	},
 	{
 		"Threat actor name": "Storm-2603",
 		"Origin/Threat": "China",
 		"Other names": ""
 	},
+	{
+		"Threat actor name": "Storm-2657",
+		"Origin/Threat": "United States, Financially motivated",
+		"Other names": "Payroll Pirates"
+	},
+	{
+		"Threat actor name": "Storm-2755",
+		"Origin/Threat": "Financially motivated",
+		"Other names": ""
+	},
+	{
+		"Threat actor name": "Storm-2981",
+		"Origin/Threat": "Group in development",
+		"Other names": "Coinbase Cartel"
+	},	
 	{
 		"Threat actor name": "Strawberry Tempest",
 		"Origin/Threat": "Financially motivated",
