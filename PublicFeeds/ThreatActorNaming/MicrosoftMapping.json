@@ -164,6 +164,11 @@
 		"Other names": "STRONTIUM, FANCY BEAR, Sednit, ATG2, Sofacy, Blue Athena, Z-Lom Team, Operation Pawn Storm, Tsar Team, CrisisFour, HELLFIRE, APT28"
 	},
 	{
+		"Threat actor name": "Fox Tempest",
+		"Origin/Threat": "Financially motivated",
+		"Other names": ""
+	},	
+	{
 		"Threat actor name": "Ghost Blizzard",
 		"Origin/Threat": "Russia",
 		"Other names": "BROMINE, BERSERK BEAR, TG-4192, Koala Team, Blue Kraken, Crouching Yeti, Dragonfly"
@@ -709,10 +714,20 @@
 		"Other names": ""
 	},
 	{
+		"Threat actor name": "Storm-2949",
+		"Origin/Threat": "Group in development",
+		"Other names": ""
+	},		
+	{
 		"Threat actor name": "Storm-2981",
 		"Origin/Threat": "Group in development",
 		"Other names": "Coinbase Cartel"
-	},	
+	},
+	{
+		"Threat actor name": "Storm-2999",
+		"Origin/Threat": "Group in development",
+		"Other names": "TeamPCP"
+	},			
 	{
 		"Threat actor name": "Strawberry Tempest",
 		"Origin/Threat": "Financially motivated",
