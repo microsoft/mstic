@@ -715,7 +715,6 @@
         "serviceAreaDisplayName": "Microsoft 365 Common and Office Online",
         "urls": [
             "officecdn.microsoft.com",
-            "officecdn.microsoft.com.edgesuite.net",
             "otelrules.azureedge.net"
         ],
         "tcpPorts": "80,443",
