@@ -314,6 +314,11 @@
 		"Other names": "NICKEL, VIXEN PANDA, Playful Dragon, RedRiver, ke3chang, APT15, Mirage"
 	},
 	{
+		"Threat actor name": "Obsidian Sandstorm",
+		"Origin/Threat": "Iran",
+		"Other names": ""
+	},	
+	{
 		"Threat actor name": "Octo Tempest",
 		"Origin/Threat": "Financially motivated",
 		"Other names": "SCATTERED SPIDER, 0ktapus"
@@ -483,11 +488,6 @@
 		"Origin/Threat": "Iran",
 		"Other names": "HEXANE, Lyceum, Siamesekitten, Spirlin"
 	},
-	{
-		"Threat actor name": "Storm-0156",
-		"Origin/Threat": "Pakistan",
-		"Other names": "MYTHIC LEOPARD, SideCopy, APT36, Transparent Tribe"
-	},	
 	{
 		"Threat actor name": "Storm-0216",
 		"Origin/Threat": "Financially motivated",
@@ -709,6 +709,11 @@
 		"Other names": "Payroll Pirates"
 	},
 	{
+		"Threat actor name": "Storm-2697",
+		"Origin/Threat": "Financially motivated",
+		"Other names": ""
+	},	
+	{
 		"Threat actor name": "Storm-2755",
 		"Origin/Threat": "Financially motivated",
 		"Other names": ""
@@ -727,7 +732,12 @@
 		"Threat actor name": "Storm-2999",
 		"Origin/Threat": "Group in development",
 		"Other names": "TeamPCP"
-	},			
+	},
+	{
+		"Threat actor name": "Storm-3075",
+		"Origin/Threat": "Group in development",
+		"Other names": ""
+	},				
 	{
 		"Threat actor name": "Strawberry Tempest",
 		"Origin/Threat": "Financially motivated",
@@ -778,6 +788,11 @@
 		"Origin/Threat": "China",
 		"Other names": "ZIRCONIUM, JUDGMENT PANDA, Chameleon, APT31, WebFans"
 	},
+	{
+		"Threat actor name": "Viridian Vortex",
+		"Origin/Threat": "Pakistan",
+		"Other names": "Storm-0156, MYTHIC LEOPARD, APT36, SideCopy, Transparent Tribe"
+	},	
 	{
 		"Threat actor name": "Void Blizzard",
 		"Origin/Threat": "Russia",
