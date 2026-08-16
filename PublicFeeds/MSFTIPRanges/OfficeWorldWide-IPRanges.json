@@ -1041,7 +1041,19 @@
         "serviceArea": "Common",
         "serviceAreaDisplayName": "Microsoft 365 Common and Office Online",
         "urls": [
-            "*.cloud.microsoft",
+            "*.cloud.microsoft"
+        ],
+        "tcpPorts": "443",
+        "udpPorts": "443",
+        "expressRoute": false,
+        "category": "Default",
+        "required": true
+    },
+    {
+        "id": 193,
+        "serviceArea": "Common",
+        "serviceAreaDisplayName": "Microsoft 365 Common and Office Online",
+        "urls": [
             "*.static.microsoft",
             "*.usercontent.microsoft"
         ],
@@ -1049,6 +1061,7 @@
         "udpPorts": "443",
         "expressRoute": false,
         "category": "Default",
-        "required": true
+        "required": true,
+        "notes": ""
     }
 ]
