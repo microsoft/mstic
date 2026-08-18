@@ -167,7 +167,12 @@
 		"Threat actor name": "Fox Tempest",
 		"Origin/Threat": "Financially motivated",
 		"Other names": ""
-	},	
+	},
+	{
+		"Threat actor name": "Frontier Blizzard",
+		"Origin/Threat": "Russia",
+		"Other names": "UNC5792"
+	},			
 	{
 		"Threat actor name": "Ghost Blizzard",
 		"Origin/Threat": "Russia",
@@ -699,6 +704,11 @@
 		"Other names": ""
 	},
 	{
+		"Threat actor name": "Storm-2581",
+		"Origin/Threat": "Financially motivated",
+		"Other names": "UNC6040"
+	},	
+	{
 		"Threat actor name": "Storm-2603",
 		"Origin/Threat": "China",
 		"Other names": ""
@@ -719,25 +729,35 @@
 		"Other names": ""
 	},
 	{
+		"Threat actor name": "Storm-2945",
+		"Origin/Threat": "Group in development",
+		"Other names": ""
+	},	
+	{
 		"Threat actor name": "Storm-2949",
 		"Origin/Threat": "Group in development",
 		"Other names": ""
 	},		
 	{
 		"Threat actor name": "Storm-2981",
-		"Origin/Threat": "Group in development",
+		"Origin/Threat": "Financially motivated",
 		"Other names": "Coinbase Cartel"
 	},
 	{
 		"Threat actor name": "Storm-2999",
-		"Origin/Threat": "Group in development",
+		"Origin/Threat": "Financially motivated",
 		"Other names": "TeamPCP"
 	},
 	{
 		"Threat actor name": "Storm-3075",
-		"Origin/Threat": "Group in development",
+		"Origin/Threat": "Financially motivated",
 		"Other names": ""
-	},				
+	},
+	{
+		"Threat actor name": "Storm-3127",
+		"Origin/Threat": "Financially motivated",
+		"Other names": "UNC6240"
+	},					
 	{
 		"Threat actor name": "Strawberry Tempest",
 		"Origin/Threat": "Financially motivated",
