@@ -46,7 +46,7 @@ jobs:
           git commit -m "Adding new PIA vpn servers daily feed" -a
 
       - name: Push changes
-        uses: ad-m/github-push-action@master
+        uses: ad-m/github-push-action@881a6320fdb16eb5318c5054f31c218aec2b324c # v1.3.0
         if: steps.check_diff.outputs.changed == 'true'
         with:
           directory: "master"
