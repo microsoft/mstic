@@ -685,6 +685,11 @@
 		"Other names": ""
 	},
 	{
+		"Threat actor name": "Storm-2246",
+		"Origin/Threat": "Group in development",
+		"Other names": ""
+	},
+	{
 		"Threat actor name": "Storm-2372",
 		"Origin/Threat": "Group in development",
 		"Other names": ""
@@ -698,17 +703,17 @@
 	{
 		"Threat actor name": "Storm-2460",
 		"Origin/Threat": "Group in development",
-		"Other names": "Lumma Stealer"
+		"Other names": ""
 	},
 	{
 		"Threat actor name": "Storm-2470",
-		"Origin/Threat": "China",
+		"Origin/Threat": "Group in development",
 		"Other names": ""
 	},	
 	{
 		"Threat actor name": "Storm-2477",
 		"Origin/Threat": "Group in development",
-		"Other names": ""
+		"Other names": "Lumma Stealer"
 	},
 	{
 		"Threat actor name": "Storm-2561",
