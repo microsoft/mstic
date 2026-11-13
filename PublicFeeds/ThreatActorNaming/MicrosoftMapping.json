@@ -86,7 +86,7 @@
 	{
 		"Threat actor name": "Citrine Sleet",
 		"Origin/Threat": "North Korea",
-		"Other names": "Storm-0139, Storm-1222, LABYRINTH CHOLLIMA"
+		"Other names": "Storm-0139, Storm-1222, LABYRINTH CHOLLIMA, HIDDEN COBRA, AppleJeus, UNC4736"
 	},
 	{
 		"Threat actor name": "Clay Typhoon",
@@ -287,7 +287,7 @@
 	{
 		"Threat actor name": "Midnight Blizzard",
 		"Origin/Threat": "Russia",
-		"Other names": "NOBELIUM, COZY BEAR, UNC2452, APT29"
+		"Other names": "NOBELIUM, COZY BEAR, UNC2452, APT29, The Dukes, Dark Halo"
 	},
 	{
 		"Threat actor name": "Mint Sandstorm",
@@ -482,7 +482,7 @@
 	{
 		"Threat actor name": "Smoke Sandstorm",
 		"Origin/Threat": "Iran",
-		"Other names": "IMPERIAL KITTEN, UNC1549"
+		"Other names": "IMPERIAL KITTEN, UNC1549, PULSAR KITTEN"
 	},
 	{
 		"Threat actor name": "Spandex Tempest",
@@ -502,7 +502,7 @@
 	{
 		"Threat actor name": "Storm-0216",
 		"Origin/Threat": "Financially motivated",
-		"Other names": "TUNNEL SPIDER, UNC2198"
+		"Other names": "TUNNEL SPIDER, UNC2198, TWISTED SPIDER"
 	},	
 	{
 		"Threat actor name": "Storm-0230",
@@ -621,7 +621,7 @@
 	},
 	{
 		"Threat actor name": "Storm-1249",
-		"Origin/Threat": "Group in development",
+		"Origin/Threat": "China",
 		"Other names": ""
 	},
 	{
@@ -680,8 +680,13 @@
 		"Other names": "TAG-100"
 	},
 	{
-		"Threat actor name": "Storm-2227",
+		"Threat actor name": "Storm-2195",
 		"Origin/Threat": "Group in development",
+		"Other names": "Hive0163"
+	},
+	{
+		"Threat actor name": "Storm-2227",
+		"Origin/Threat": "United Arab Emirates",
 		"Other names": ""
 	},
 	{
@@ -733,7 +738,7 @@
 	{
 		"Threat actor name": "Storm-2603",
 		"Origin/Threat": "China",
-		"Other names": ""
+		"Other names": "GOLD SALEM"
 	},
 	{
 		"Threat actor name": "Storm-2634",
@@ -748,7 +753,7 @@
 	{
 		"Threat actor name": "Storm-2697",
 		"Origin/Threat": "Financially motivated",
-		"Other names": ""
+		"Other names": "The Gentlemen ransomware"
 	},	
 	{
 		"Threat actor name": "Storm-2755",
@@ -787,7 +792,7 @@
 	},
 	{
 		"Threat actor name": "Storm-3069",
-		"Origin/Threat": "Group in development",
+		"Origin/Threat": "China",
 		"Other names": ""
 	},
 	{
@@ -797,7 +802,7 @@
 	},
 	{
 		"Threat actor name": "Storm-3119",
-		"Origin/Threat": "Group in development",
+		"Origin/Threat": "China",
 		"Other names": "YAM Store"
 	},
 	{
@@ -814,6 +819,16 @@
 		"Threat actor name": "Storm-3189",
 		"Origin/Threat": "Group in development",
 		"Other names": "ExfilSquad"
+	},
+	{
+		"Threat actor name": "Storm-3202",
+		"Origin/Threat": "Group in development",
+		"Other names": "ReDact, UNC6671"
+	},
+	{
+		"Threat actor name": "Storm-3358",
+		"Origin/Threat": "Financially motivated",
+		"Other names": ""
 	},
 	{
 		"Threat actor name": "Strawberry Tempest",
@@ -873,7 +888,7 @@
 	{
 		"Threat actor name": "Void Blizzard",
 		"Origin/Threat": "Russia",
-		"Other names": "Laundry Bear"
+		"Other names": "Storm-1957, Laundry Bear"
 	},
 	{
 		"Threat actor name": "Volga Flood",
